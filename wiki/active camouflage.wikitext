@@ -13,9 +13,9 @@ unlocks at [[level 15]].
 * 20 [[cloth]]
 * 35 seconds
 
-== actions ==
+== action ==
 
-the areas concealed by the suit become invisible when worn. while your head and hands still stick out when standing, you are very difficult to see when asleep, only visible up to 5km away.
+'''when equipped''': the areas concealed by the suit become invisible when worn. while your head and hands still stick out when standing, you are very difficult to see when asleep, only visible up to 5km away.
 
 == stats ==
 

@@ -14,11 +14,9 @@ unlocks at [[level 35]].
 * 15 [[scrap metal]]
 * 750 seconds
 
-== actions ==
+== action ==
 
-scans for intelligent life within a square radius of 30 kilometers, and beeps with volume proportional to the distance of the closest lifeform.
-
-'''scan''': ''if you know what this does, please provide a detailed description here''
+'''when equipped''': scans for intelligent life within a square radius of 30 kilometers, and beeps with volume proportional to the distance of the closest lifeform.
 
 == stats ==
 

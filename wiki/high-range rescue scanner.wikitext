@@ -14,11 +14,9 @@ unlocks at [[level 40]].
 * 5 [[plastic pieces]]
 * 4000 seconds
 
-== actions ==
+== action ==
 
-scans for intelligent life within a square radius of 100 kilometers, and will indicate the approximate direction.
-
-'''scan''': ''if you know what this does, please provide a detailed description here''
+'''when equipped''': scans for intelligent life within a square radius of 100 kilometers, and will indicate the approximate direction.
 
 == stats ==
 

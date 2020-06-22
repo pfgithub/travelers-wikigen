@@ -43,10 +43,16 @@ const resDir = __dirname + "/" + "wiki/";
 		}
 		
 		if(item.func) {
-			res += "== actions ==\n\n";
-			res += item.func_desc + "\n\n";
-			for(let [title, button] of Object.entries(item.func_actions || {})) {
-				res += "'''"+button.btn_text+"''': ''if you know what this does, please provide a detailed description here''\n\n";
+			let buttons = Object.entries(item.func_actions || {});
+			if(buttons.length > 1) {
+				res += "== actions ==\n\n";
+				res += item.func_desc + "\n\n";
+				for(let [title, button] of buttons) {
+					res += "'''"+button.btn_text+"''': ''if you know what this does, please provide a detailed description here''\n\n";
+				}
+			}else{
+				res += "== action ==\n\n";
+				res += "'''when equipped''': " + item.func_desc + "\n\n";
 			}
 		}
 		

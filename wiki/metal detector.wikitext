@@ -14,11 +14,9 @@ unlocks at [[level NaN]].
 * 1 [[energy cell]]
 * 80 seconds
 
-== actions ==
+== action ==
 
-while walking, the metal detector will ping if it finds useful materials underground automatically. if you have a shovel, you can also dig in place without needing to equip it.
-
-'''dig''': ''if you know what this does, please provide a detailed description here''
+'''when equipped''': while walking, the metal detector will ping if it finds useful materials underground automatically. if you have a shovel, you can also dig in place without needing to equip it.
 
 == stats ==
 
