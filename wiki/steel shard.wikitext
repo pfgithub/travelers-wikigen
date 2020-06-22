@@ -1,0 +1,13 @@
+<code><nowiki>¤</nowiki></code>
+
+== description ==
+
+high quality steel that seems to have been ripped off some old machine.
+
+== finding ==
+
+''please edit this section''
+
+== stats ==
+
+'''weight''': 5

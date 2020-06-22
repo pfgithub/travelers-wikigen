@@ -1,0 +1,13 @@
+<code><nowiki>o</nowiki></code>
+
+== description ==
+
+a charged battery, from a time when energy was unlimited.
+
+== finding ==
+
+''please edit this section''
+
+== stats ==
+
+'''weight''': 4

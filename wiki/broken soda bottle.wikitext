@@ -1,0 +1,15 @@
+<code><nowiki>{,</nowiki></code>
+
+== description ==
+
+a broken glass soda bottle, the faded label of its blue and red logo still prominent.
+
+== finding ==
+
+''please edit this section''
+
+== stats ==
+
+'''weight''': 5
+
+'''damage''': +8dmg, -6sp

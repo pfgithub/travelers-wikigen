@@ -1,0 +1,13 @@
+<code><nowiki>/</nowiki></code>
+
+== description ==
+
+a plank of old wood. versatile and cheap.
+
+== finding ==
+
+''please edit this section''
+
+== stats ==
+
+'''weight''': 1

@@ -1,0 +1,13 @@
+<code><nowiki>ß</nowiki></code>
+
+== description ==
+
+some different kinds of plastic, molded together.
+
+== finding ==
+
+''please edit this section''
+
+== stats ==
+
+'''weight''': 2

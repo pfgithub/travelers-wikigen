@@ -1,0 +1,17 @@
+<code><nowiki>s</nowiki></code>
+
+== description ==
+
+a line of copper wrapped in an insulator to carry electricity.
+
+== crafting ==
+
+unlocks at [[level 10]].
+
+* 1 [[copper coil]]
+* 1 [[cloth]]
+* 8 seconds
+
+== stats ==
+
+'''weight''': 1

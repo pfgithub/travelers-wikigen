@@ -1,0 +1,16 @@
+<code><nowiki>§</nowiki></code>
+
+== description ==
+
+hard and exposed copper wire, coiled around a plastic spool.
+
+== crafting ==
+
+unlocks at [[level 15]].
+
+* 2 [[copper ore]]
+* 25 seconds
+
+== stats ==
+
+'''weight''': 5

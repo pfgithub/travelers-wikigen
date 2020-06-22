@@ -1,0 +1,13 @@
+<code><nowiki>O</nowiki></code>
+
+== description ==
+
+a heavy, spherical material that mostly resembles stone, but it glows bright purple, its hue shifting slightly when viewed from different angles. its surface, where not cracked, is extremely smooth, and it has a unique scent.
+
+== finding ==
+
+''please edit this section''
+
+== stats ==
+
+'''weight''': 10

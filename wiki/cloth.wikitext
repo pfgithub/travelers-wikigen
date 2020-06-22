@@ -1,0 +1,13 @@
+<code><nowiki>c</nowiki></code>
+
+== description ==
+
+tattered and partially rotted fabric, but combined with others like it, could still be put to use.
+
+== finding ==
+
+''please edit this section''
+
+== stats ==
+
+'''weight''': 1

@@ -1,0 +1,13 @@
+<code><nowiki>ð</nowiki></code>
+
+== description ==
+
+a few shards of metal. probably can be bent into useful shapes.
+
+== finding ==
+
+''please edit this section''
+
+== stats ==
+
+'''weight''': 2

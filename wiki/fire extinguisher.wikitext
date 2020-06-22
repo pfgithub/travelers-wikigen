@@ -1,0 +1,15 @@
+<code><nowiki>Û</nowiki></code>
+
+== description ==
+
+an empty metal can, once capable of saving lives, is now used to inflict pain.
+
+== finding ==
+
+''please edit this section''
+
+== stats ==
+
+'''weight''': 11
+
+'''damage''': +11dmg, -11sp

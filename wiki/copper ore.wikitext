@@ -1,0 +1,13 @@
+<code><nowiki>&lt;c</nowiki></code>
+
+== description ==
+
+contains pure copper.
+
+== finding ==
+
+''please edit this section''
+
+== stats ==
+
+'''weight''': 6

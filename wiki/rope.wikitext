@@ -1,0 +1,13 @@
+<code><nowiki>~</nowiki></code>
+
+== description ==
+
+a small section of rope, its ends frayed.
+
+== finding ==
+
+''please edit this section''
+
+== stats ==
+
+'''weight''': 3

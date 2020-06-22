@@ -1,0 +1,13 @@
+<code><nowiki>▓</nowiki></code>
+
+== description ==
+
+old and broken, but its electric components can still be used.
+
+== finding ==
+
+''please edit this section''
+
+== stats ==
+
+'''weight''': 2

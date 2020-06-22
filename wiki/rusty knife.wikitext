@@ -1,0 +1,19 @@
+<code><nowiki>4</nowiki></code>
+
+== description ==
+
+an old butcher's knife, edge rusted away, but still capable of damage.
+
+== crafting ==
+
+unlocks at [[level 1]].
+
+* 1 [[wood plank]]
+* 2 [[scrap metal]]
+* 15 seconds
+
+== stats ==
+
+'''weight''': 4
+
+'''damage''': +9dmg, -7sp

@@ -1,0 +1,25 @@
+<code><nowiki>¯\_</nowiki></code>
+
+== description ==
+
+detects materials hidden underground.
+
+== crafting ==
+
+unlocks at [[level NaN]].
+
+* 20 [[scrap metal]]
+* 1 [[circuit board]]
+* 3 [[wire]]
+* 1 [[energy cell]]
+* 80 seconds
+
+== actions ==
+
+while walking, the metal detector will ping if it finds useful materials underground automatically. if you have a shovel, you can also dig in place without needing to equip it.
+
+'''dig''': ''if you know what this does, please provide a detailed description here''
+
+== stats ==
+
+'''weight''': 15
