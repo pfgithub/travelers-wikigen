@@ -1,4 +1,4 @@
-<code><nowiki>{,</nowiki></code>
+An [[items|item]]. Icon: <code><nowiki>{,</nowiki></code>.
 
 == description ==
 

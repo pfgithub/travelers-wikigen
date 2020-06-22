@@ -1,4 +1,4 @@
-<code><nowiki>O</nowiki></code>
+An [[items|item]]. Icon: <code><nowiki>O</nowiki></code>.
 
 == description ==
 

@@ -1,4 +1,4 @@
-<code><nowiki>Û</nowiki></code>
+An [[items|item]]. Icon: <code><nowiki>Û</nowiki></code>.
 
 == description ==
 

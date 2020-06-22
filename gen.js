@@ -10,7 +10,7 @@ const resDir = __dirname + "/" + "wiki/";
 	for(let {data: item} of items) {
 		let res = "";
 		
-		res += "<code><nowiki>"+item.icon.replace(/</, "&lt;")+"</nowiki></code>\n\n";
+		res += "An [[items|item]]. Icon: <code><nowiki>"+item.icon.replace(/</, "&lt;")+"</nowiki></code>.\n\n";
 		res += "== description ==\n\n";
 		res += item.desc + "\n\n";
 		
