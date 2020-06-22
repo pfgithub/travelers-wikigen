@@ -65,6 +65,8 @@ const resDir = __dirname + "/" + "wiki/";
 		res += "'''weight''': "+item.weight+"\n\n";
 		if(item.weapon)
 			res += "'''damage''': +"+item.weapon_data.dmg+"dmg, -"+item.weapon_data.sp+"sp\n\n";
+		if(item.breaker)
+			res += "'''break ratio''': "+item.break_ratio + "\n\n";
 		
 		await fs.writeFile(resDir + item.title + ".wikitext", res.trim(), "utf-8");
 	}
