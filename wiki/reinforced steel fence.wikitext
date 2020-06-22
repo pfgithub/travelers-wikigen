@@ -1,0 +1,18 @@
+An [[items|item]]. Icon: <code><nowiki>&lt;b>#</b></nowiki></code>.
+
+== description ==
+
+a kilometer's worth of reinforced steel fencing.
+
+== crafting ==
+
+unlocks at [[level 30]].
+
+* 30 [[steel shard]]
+* 5 [[scrap metal]]
+* 5 [[wood plank]]
+* 150 seconds
+
+== stats ==
+
+'''weight''': 50

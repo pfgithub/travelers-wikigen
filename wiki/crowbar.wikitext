@@ -1,0 +1,17 @@
+An [[items|item]]. Icon: <code><nowiki>{</nowiki></code>.
+
+== description ==
+
+a long, curved piece of steel, meant for prying things apart.
+
+== crafting ==
+
+unlocks at [[level 1]].
+
+* 2 [[scrap metal]]
+* 5 [[steel shard]]
+* 30 seconds
+
+== stats ==
+
+'''weight''': 6

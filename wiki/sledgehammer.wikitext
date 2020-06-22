@@ -1,0 +1,19 @@
+An [[items|item]]. Icon: <code><nowiki>––0</nowiki></code>.
+
+== description ==
+
+a heavy hammer, capable of quick destruction.
+
+== crafting ==
+
+unlocks at [[level 30]].
+
+* 5 [[scrap metal]]
+* 8 [[steel shard]]
+* 25 seconds
+
+== stats ==
+
+'''weight''': 9
+
+'''damage''': +22dmg, -16sp

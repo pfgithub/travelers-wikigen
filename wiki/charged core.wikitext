@@ -1,0 +1,20 @@
+An [[items|item]]. Icon: <code><nowiki>@</nowiki></code>.
+
+== description ==
+
+a spherical cell, capable of supplying a large amount of power.
+
+== crafting ==
+
+unlocks at [[level 35]].
+
+* 10 [[scrap metal]]
+* 2 [[circuit board]]
+* 5 [[wire]]
+* 3 [[energy cell]]
+* 1 [[copper coil]]
+* 500 seconds
+
+== stats ==
+
+'''weight''': 15

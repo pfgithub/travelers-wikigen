@@ -1,0 +1,25 @@
+An [[items|item]]. Icon: <code><nowiki>(s)</nowiki></code>.
+
+== description ==
+
+scans for intelligent life within a square radius of 30 kilometers, and beeps with volume proportional to the distance of the closest lifeform.
+
+== crafting ==
+
+unlocks at [[level 35]].
+
+* 1 [[control panel]]
+* 5 [[energy cell]]
+* 10 [[wire]]
+* 15 [[scrap metal]]
+* 750 seconds
+
+== actions ==
+
+scans for intelligent life within a square radius of 30 kilometers, and beeps with volume proportional to the distance of the closest lifeform.
+
+'''scan''': ''if you know what this does, please provide a detailed description here''
+
+== stats ==
+
+'''weight''': 15

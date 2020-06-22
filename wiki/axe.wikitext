@@ -1,0 +1,19 @@
+An [[items|item]]. Icon: <code><nowiki>––A</nowiki></code>.
+
+== description ==
+
+a sharp axe, capable of breaking down strong structures.
+
+== crafting ==
+
+unlocks at [[level 25]].
+
+* 2 [[wood plank]]
+* 5 [[steel shard]]
+* 25 seconds
+
+== stats ==
+
+'''weight''': 9
+
+'''damage''': +17dmg, -8sp

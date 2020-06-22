@@ -1,0 +1,19 @@
+An [[items|item]]. Icon: <code><nowiki>-==</nowiki></code>.
+
+== description ==
+
+once used for sport, this bat now serves as a blunt weapon.
+
+== crafting ==
+
+unlocks at [[level 10]].
+
+* 5 [[wood plank]]
+* 3 [[steel shard]]
+* 30 seconds
+
+== stats ==
+
+'''weight''': 9
+
+'''damage''': +10dmg, -9sp

@@ -1,0 +1,16 @@
+An [[items|item]]. Icon: <code><nowiki>+</nowiki></code>.
+
+== description ==
+
+a kilometer's worth of wooden fencing.
+
+== crafting ==
+
+unlocks at [[level 10]].
+
+* 30 [[wood plank]]
+* 90 seconds
+
+== stats ==
+
+'''weight''': 20

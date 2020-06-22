@@ -7,7 +7,15 @@ const resDir = __dirname + "/" + "wiki/";
 	await fs.mkdir(resDir, {recursive: true});
 	
 	let items = Object.values(data.supplies);
-	for(let {data: item} of items) {
+	let allItems = [...items.map(i => i.data)];
+	for(let blueprints of Object.values(data.craft_items)) {
+		for(let blueprint of blueprints) {
+			let item = Object.values(blueprint)[0];
+			if(allItems.find(itm => itm.name === item.name)) continue;
+			allItems.push(item);
+		}
+	}
+	for(let item of allItems) {
 		let res = "";
 		
 		res += "An [[items|item]]. Icon: <code><nowiki>"+item.icon.replace(/</, "&lt;")+"</nowiki></code>.\n\n";
@@ -37,7 +45,7 @@ const resDir = __dirname + "/" + "wiki/";
 		if(item.func) {
 			res += "== actions ==\n\n";
 			res += item.func_desc + "\n\n";
-			for(let [title, button] of Object.entries(item.func_actions)) {
+			for(let [title, button] of Object.entries(item.func_actions || {})) {
 				res += "'''"+button.btn_text+"''': ''if you know what this does, please provide a detailed description here''\n\n";
 			}
 		}

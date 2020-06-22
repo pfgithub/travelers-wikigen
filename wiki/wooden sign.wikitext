@@ -1,0 +1,17 @@
+An [[items|item]]. Icon: <code><nowiki>¶</nowiki></code>.
+
+== description ==
+
+a wooden sign, upon which a message can be written.
+
+== crafting ==
+
+unlocks at [[level 5]].
+
+* 8 [[wood plank]]
+* 2 [[scrap metal]]
+* 30 seconds
+
+== stats ==
+
+'''weight''': 10

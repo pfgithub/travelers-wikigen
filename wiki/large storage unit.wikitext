@@ -1,0 +1,19 @@
+An [[items|item]]. Icon: <code><nowiki>▭</nowiki></code>.
+
+== description ==
+
+a large structure capable of holding a huge amount of items.
+
+== crafting ==
+
+unlocks at [[level 25]].
+
+* 10 [[steel shard]]
+* 15 [[scrap metal]]
+* 25 [[wood plank]]
+* 4 [[rope]]
+* 150 seconds
+
+== stats ==
+
+'''weight''': 25

@@ -1,0 +1,25 @@
+An [[items|item]]. Icon: <code><nowiki>(S)</nowiki></code>.
+
+== description ==
+
+scans for intelligent life within a square radius of 100 kilometers, and will indicate the approximate direction.
+
+== crafting ==
+
+unlocks at [[level 40]].
+
+* 1 [[low-range rescue scanner]]
+* 1 [[charged core]]
+* 10 [[wire]]
+* 5 [[plastic pieces]]
+* 4000 seconds
+
+== actions ==
+
+scans for intelligent life within a square radius of 100 kilometers, and will indicate the approximate direction.
+
+'''scan''': ''if you know what this does, please provide a detailed description here''
+
+== stats ==
+
+'''weight''': 20

@@ -1,0 +1,20 @@
+An [[items|item]]. Icon: <code><nowiki>&lt;&gt;</nowiki></code>.
+
+== description ==
+
+a small screen with programmable buttons. capable of being rigged up to many different machines.
+
+== crafting ==
+
+unlocks at [[level 20]].
+
+* 5 [[scrap metal]]
+* 5 [[plastic pieces]]
+* 1 [[circuit board]]
+* 10 [[wire]]
+* 2 [[copper coil]]
+* 75 seconds
+
+== stats ==
+
+'''weight''': 5

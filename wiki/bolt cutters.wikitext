@@ -1,0 +1,18 @@
+An [[items|item]]. Icon: <code><nowiki>X</nowiki></code>.
+
+== description ==
+
+two long handles, bolted on an axle and tipped with steel. capable of snipping many materials.
+
+== crafting ==
+
+unlocks at [[level 10]].
+
+* 6 [[scrap metal]]
+* 2 [[steel shard]]
+* 2 [[rope]]
+* 45 seconds
+
+== stats ==
+
+'''weight''': 7
