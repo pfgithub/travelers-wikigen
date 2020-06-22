@@ -14,6 +14,10 @@ unlocks at [[level 25]].
 * 4 [[rope]]
 * 150 seconds
 
+== building ==
+
+'''description''': a small structure capable of holding a lot of items.
+
 == stats ==
 
 '''weight''': 25

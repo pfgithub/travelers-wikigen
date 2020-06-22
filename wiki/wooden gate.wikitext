@@ -13,6 +13,10 @@ unlocks at [[level 10]].
 * 2 [[rope]]
 * 150 seconds
 
+== building ==
+
+'''description''': a crude gate fashioned out of wood. secured by a passcode mechanism.
+
 == stats ==
 
 '''weight''': 25

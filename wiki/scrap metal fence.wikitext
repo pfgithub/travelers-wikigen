@@ -12,6 +12,10 @@ unlocks at [[level 15]].
 * 5 [[wood plank]]
 * 120 seconds
 
+== building ==
+
+'''description''': a kilometer of scrap metal fencing. it can't be walked over, and takes some time to break through.
+
 == stats ==
 
 '''weight''': 35

@@ -13,6 +13,10 @@ unlocks at [[level 30]].
 * 1 [[control panel]]
 * 250 seconds
 
+== building ==
+
+'''description''': a metal gate fashioned from scrapped machinery. secured by a small computer with a keypad.
+
 == stats ==
 
 '''weight''': 35

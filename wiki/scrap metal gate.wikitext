@@ -13,6 +13,10 @@ unlocks at [[level 15]].
 * 1 [[circuit board]]
 * 200 seconds
 
+== building ==
+
+'''description''': a metal gate fashioned from scrapped machinery. secured by a passcode mechanism.
+
 == stats ==
 
 '''weight''': 30

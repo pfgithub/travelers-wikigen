@@ -11,6 +11,10 @@ unlocks at [[level 10]].
 * 30 [[wood plank]]
 * 90 seconds
 
+== building ==
+
+'''description''': a kilometer of wooden fencing. it can't be walked over, but it's fairly easy to break through.
+
 == stats ==
 
 '''weight''': 20

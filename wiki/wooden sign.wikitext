@@ -12,6 +12,10 @@ unlocks at [[level 5]].
 * 2 [[scrap metal]]
 * 30 seconds
 
+== building ==
+
+'''description''': when placed, you will be able to write a short message on it, visible to any traveler who visits it.
+
 == stats ==
 
 '''weight''': 10

@@ -56,6 +56,11 @@ const resDir = __dirname + "/" + "wiki/";
 			}
 		}
 		
+		if(item.build) {
+			res += "== building ==\n\n";
+			res += "'''description''': "+item.build_desc+"\n\n";
+		}
+		
 		res += "== stats ==\n\n";
 		res += "'''weight''': "+item.weight+"\n\n";
 		if(item.weapon)
