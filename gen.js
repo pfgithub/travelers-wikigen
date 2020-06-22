@@ -1,13 +1,23 @@
 const data = require("./data.json").data;
+const extras = require("./extras.json");
 const fs = require("fs").promises;
 
 const resDir = __dirname + "/" + "wiki/";
+
+let icon = (item) => {
+	if(item.icon.startsWith("<b>") && item.icon.endsWith("</b>"))
+		return "'''<code><nowiki>"+item.icon.substring(3, item.icon.length - 4)+"</nowiki></code>'''";
+	return "<code><nowiki>"+item.icon+"</nowiki></code>"
+};
+
+let categories = ({misc: "Miscellaneous", tool: "Tools", build: "Building Materials", weap: "Weapons", rare: "Rare Items"});
+let catSort = ["misc", "tool", "build", "weap", "rare"];
 
 (async () => {
 	await fs.mkdir(resDir, {recursive: true});
 	
 	let items = Object.values(data.supplies);
-	let allItems = [...items.map(i => i.data)];
+	let allItems = [...items.map(i => i.data), ...Object.values(extras).map(i => i.data)];
 	for(let blueprints of Object.values(data.craft_items)) {
 		for(let blueprint of blueprints) {
 			let item = Object.values(blueprint)[0];
@@ -15,10 +25,25 @@ const resDir = __dirname + "/" + "wiki/";
 			allItems.push(item);
 		}
 	}
+	{
+		let res = "";
+		let types = {};
+		for(let item of allItems) {
+			if(!types[item.type]) types[item.type] = [];
+			types[item.type].push(item);
+		}
+		for([type, items] of Object.entries(types).sort(([a], [b]) => catSort.indexOf(a) - catSort.indexOf(b))) {
+			res += "== "+categories[type]+" ==\n\n";
+			for(let item of items.sort((a, b) => a.title.localeCompare(b.title))) {
+				res += icon(item) + " [[" + item.title + "]]\n\n"
+			}
+		}
+		await fs.writeFile(resDir + "_Items" + ".wikitext", res.trim(), "utf-8");
+	}
 	for(let item of allItems) {
 		let res = "";
 		
-		res += "An [[items|item]]. Icon: <code><nowiki>"+item.icon.replace(/</, "&lt;")+"</nowiki></code>.\n\n";
+		res += "An [[items|item]]. Icon: "+icon(item)+".\n\n";
 		res += "== description ==\n\n";
 		res += item.desc + "\n\n";
 		

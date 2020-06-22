@@ -1,0 +1,13 @@
+An [[items|item]]. Icon: '''<code><nowiki>-</nowiki></code>'''.
+
+== description ==
+
+a cylinder of plastic containing several tiny metal balls. capable of inflicting heavy damage over a short range.
+
+== finding ==
+
+''please edit this section''
+
+== stats ==
+
+'''weight''': 3

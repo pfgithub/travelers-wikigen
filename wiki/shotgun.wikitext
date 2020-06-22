@@ -1,0 +1,13 @@
+An [[items|item]]. Icon: <code><nowiki>~==</nowiki></code>.
+
+== description ==
+
+a pump-action shotgun, strong and sturdy, capable of dealing heavy damage over a short distance with a spray of metal pellets.
+
+== finding ==
+
+''please edit this section''
+
+== stats ==
+
+'''weight''': 22

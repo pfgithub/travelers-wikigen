@@ -1,0 +1,24 @@
+{
+	"shotgun": {
+		"count": 1,
+		"data": {
+			"name": "shotgun",
+			"title": "shotgun",
+			"type": "weap",
+			"weight": 22,
+			"icon": "~==",
+			"desc": "a pump-action shotgun, strong and sturdy, capable of dealing heavy damage over a short distance with a spray of metal pellets."
+		}
+	},
+	"shotgun_shell": {
+		"count": 1,
+		"data": {
+			"name": "shotgun_shell",
+			"title": "shotgun shell",
+			"type": "misc",
+			"weight": 3,
+			"icon": "<b>-</b>",
+			"desc": "a cylinder of plastic containing several tiny metal balls. capable of inflicting heavy damage over a short range."
+		}
+	}
+}

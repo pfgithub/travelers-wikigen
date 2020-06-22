@@ -1,0 +1,89 @@
+== Miscellaneous ==
+
+<code><nowiki>▓</nowiki></code> [[circuit board]]
+
+<code><nowiki>c</nowiki></code> [[cloth]]
+
+<code><nowiki>&lt;&gt;</nowiki></code> [[control panel]]
+
+<code><nowiki>§</nowiki></code> [[copper coil]]
+
+<code><nowiki>&lt;c</nowiki></code> [[copper ore]]
+
+<code><nowiki>o</nowiki></code> [[energy cell]]
+
+<code><nowiki>ß</nowiki></code> [[plastic pieces]]
+
+<code><nowiki>~</nowiki></code> [[rope]]
+
+<code><nowiki>ð</nowiki></code> [[scrap metal]]
+
+'''<code><nowiki>-</nowiki></code>''' [[shotgun shell]]
+
+<code><nowiki>¤</nowiki></code> [[steel shard]]
+
+<code><nowiki>s</nowiki></code> [[wire]]
+
+<code><nowiki>/</nowiki></code> [[wood plank]]
+
+== Tools ==
+
+<code><nowiki>%</nowiki></code> [[active camouflage]]
+
+<code><nowiki>––A</nowiki></code> [[axe]]
+
+<code><nowiki>X</nowiki></code> [[bolt cutters]]
+
+<code><nowiki>{</nowiki></code> [[crowbar]]
+
+<code><nowiki>(S)</nowiki></code> [[high-range rescue scanner]]
+
+<code><nowiki>(s)</nowiki></code> [[low-range rescue scanner]]
+
+<code><nowiki>¯\_</nowiki></code> [[metal detector]]
+
+<code><nowiki>r=</nowiki></code> [[powered blowtorch]]
+
+<code><nowiki>––D</nowiki></code> [[shovel]]
+
+<code><nowiki>––0</nowiki></code> [[sledgehammer]]
+
+== Building Materials ==
+
+<code><nowiki>▭</nowiki></code> [[large storage unit]]
+
+'''<code><nowiki>#</nowiki></code>''' [[reinforced steel fence]]
+
+<code><nowiki>#</nowiki></code> [[scrap metal fence]]
+
+'''<code><nowiki>D</nowiki></code>''' [[scrap metal gate]]
+
+<code><nowiki>◻</nowiki></code> [[small storage unit]]
+
+<code><nowiki>$</nowiki></code> [[steel gate]]
+
+<code><nowiki>+</nowiki></code> [[wooden fence]]
+
+<code><nowiki>D</nowiki></code> [[wooden gate]]
+
+<code><nowiki>¶</nowiki></code> [[wooden sign]]
+
+== Weapons ==
+
+<code><nowiki>-==</nowiki></code> [[baseball bat]]
+
+<code><nowiki>{,</nowiki></code> [[broken soda bottle]]
+
+<code><nowiki>Û</nowiki></code> [[fire extinguisher]]
+
+<code><nowiki>!</nowiki></code> [[machete]]
+
+<code><nowiki>4</nowiki></code> [[rusty knife]]
+
+<code><nowiki>~==</nowiki></code> [[shotgun]]
+
+== Rare Items ==
+
+<code><nowiki>@</nowiki></code> [[charged core]]
+
+<code><nowiki>O</nowiki></code> [[unknown material fragment]]
