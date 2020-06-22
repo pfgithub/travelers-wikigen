@@ -22,6 +22,6 @@ a simple shovel, capable of digging a few feet into the ground, or filling in a 
 
 == stats ==
 
-'''weight''': 7
+'''weight''': 7 units
 
 '''damage''': +21dmg, -20sp

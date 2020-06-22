@@ -10,6 +10,6 @@ an empty metal can, once capable of saving lives, is now used to inflict pain.
 
 == stats ==
 
-'''weight''': 11
+'''weight''': 11 units
 
 '''damage''': +11dmg, -11sp

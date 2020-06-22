@@ -10,4 +10,4 @@ a few shards of metal. probably can be bent into useful shapes.
 
 == stats ==
 
-'''weight''': 2
+'''weight''': 2 units

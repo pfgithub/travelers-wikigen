@@ -20,4 +20,4 @@ unlocks at [[level 40]].
 
 == stats ==
 
-'''weight''': 20
+'''weight''': 20 units

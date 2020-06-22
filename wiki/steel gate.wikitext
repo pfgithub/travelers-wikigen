@@ -19,4 +19,4 @@ unlocks at [[level 30]].
 
 == stats ==
 
-'''weight''': 35
+'''weight''': 35 units

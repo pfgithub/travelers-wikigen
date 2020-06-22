@@ -87,7 +87,7 @@ let catSort = ["misc", "tool", "build", "weap", "rare"];
 		}
 		
 		res += "== stats ==\n\n";
-		res += "'''weight''': "+item.weight+"\n\n";
+		res += "'''weight''': "+item.weight+" units\n\n";
 		if(item.weapon)
 			res += "'''damage''': +"+item.weapon_data.dmg+"dmg, -"+item.weapon_data.sp+"sp\n\n";
 		if(item.breaker)

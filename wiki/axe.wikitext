@@ -14,7 +14,7 @@ unlocks at [[level 25]].
 
 == stats ==
 
-'''weight''': 9
+'''weight''': 9 units
 
 '''damage''': +17dmg, -8sp
 

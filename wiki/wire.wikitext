@@ -14,4 +14,4 @@ unlocks at [[level 10]].
 
 == stats ==
 
-'''weight''': 1
+'''weight''': 1 units

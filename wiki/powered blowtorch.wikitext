@@ -16,4 +16,4 @@ unlocks at [[level 20]].
 
 == stats ==
 
-'''weight''': 35
+'''weight''': 35 units

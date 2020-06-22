@@ -10,4 +10,4 @@ contains pure copper.
 
 == stats ==
 
-'''weight''': 6
+'''weight''': 6 units

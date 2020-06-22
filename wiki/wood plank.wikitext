@@ -10,4 +10,4 @@ a plank of old wood. versatile and cheap.
 
 == stats ==
 
-'''weight''': 1
+'''weight''': 1 units

@@ -10,4 +10,4 @@ a heavy, spherical material that mostly resembles stone, but it glows bright pur
 
 == stats ==
 
-'''weight''': 10
+'''weight''': 10 units

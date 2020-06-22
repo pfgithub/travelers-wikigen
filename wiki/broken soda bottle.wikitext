@@ -10,6 +10,6 @@ a broken glass soda bottle, the faded label of its blue and red logo still promi
 
 == stats ==
 
-'''weight''': 5
+'''weight''': 5 units
 
 '''damage''': +8dmg, -6sp

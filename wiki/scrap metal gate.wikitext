@@ -19,4 +19,4 @@ unlocks at [[level 15]].
 
 == stats ==
 
-'''weight''': 30
+'''weight''': 30 units

@@ -10,4 +10,4 @@ tattered and partially rotted fabric, but combined with others like it, could st
 
 == stats ==
 
-'''weight''': 1
+'''weight''': 1 units

@@ -10,4 +10,4 @@ high quality steel that seems to have been ripped off some old machine.
 
 == stats ==
 
-'''weight''': 5
+'''weight''': 5 units

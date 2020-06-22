@@ -15,6 +15,6 @@ unlocks at [[level 20]].
 
 == stats ==
 
-'''weight''': 15
+'''weight''': 15 units
 
 '''damage''': +29dmg, -17sp
