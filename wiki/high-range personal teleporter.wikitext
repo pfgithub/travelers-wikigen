@@ -19,13 +19,13 @@ unlocked with [[bp: high-range personal teleporter]].
 
 a heavy device that can teleport you 1000km in any direction, if the current location or destination do not have too much interference. requires 5 charged cores to engage a teleport.
 
-'''teleport north''': ''if you know what this does, please provide a detailed description here''
+{{Button|teleport north}}: ''if you know what this does, please provide a detailed description here''
 
-'''teleport east''': ''if you know what this does, please provide a detailed description here''
+{{Button|teleport east}}: ''if you know what this does, please provide a detailed description here''
 
-'''teleport south''': ''if you know what this does, please provide a detailed description here''
+{{Button|teleport south}}: ''if you know what this does, please provide a detailed description here''
 
-'''teleport west''': ''if you know what this does, please provide a detailed description here''
+{{Button|teleport west}}: ''if you know what this does, please provide a detailed description here''
 
 == stats ==
 

@@ -39,6 +39,7 @@ let catSort = ["misc", "tool", "build", "weap", "rare", "bp"];
             allItems.push(item);
         }
     }
+    let itemNames = {};
     {
         let res = "";
         let types = {};
@@ -54,6 +55,7 @@ let catSort = ["misc", "tool", "build", "weap", "rare", "bp"];
                 a.title.localeCompare(b.title),
             )) {
                 res += icon(item) + " [[" + item.title + "]]\n\n";
+                itemNames[item.name] = item.title;
             }
         }
         await fs.writeFile(
@@ -98,9 +100,9 @@ let catSort = ["misc", "tool", "build", "weap", "rare", "bp"];
                 res += item.func_desc + "\n\n";
                 for (let [title, button] of buttons) {
                     res +=
-                        "'''" +
+                        "{{Button|" +
                         button.btn_text +
-                        "''': ''if you know what this does, please provide a detailed description here''\n\n";
+                        "}}: ''if you know what this does, please provide a detailed description here''\n\n";
                 }
             } else {
                 res += "== action ==\n\n";
@@ -116,7 +118,7 @@ let catSort = ["misc", "tool", "build", "weap", "rare", "bp"];
         if (item.is_bp) {
             res += "== blueprint ==\n\n";
             res +=
-                "learn to unlock the recipe for [[" + item.bp_for + "]].\n\n";
+                "learn to unlock the recipe for [[" + itemNames[item.bp_for] + "]].\n\n";
         }
 
         res += "== stats ==\n\n";

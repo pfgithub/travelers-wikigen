@@ -11,7 +11,7 @@ a blueprint for the creation of a device that can teleport you short distances.
 
 == blueprint ==
 
-learn to unlock the recipe for [[low_teleporter]].
+learn to unlock the recipe for [[low-range personal teleporter]].
 
 == stats ==
 

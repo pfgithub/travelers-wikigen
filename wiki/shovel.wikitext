@@ -17,9 +17,9 @@ unlocks at [[level 5]].
 
 a simple shovel, capable of digging a few feet into the ground, or filling in a hole.
 
-'''dig''': ''if you know what this does, please provide a detailed description here''
+{{Button|dig}}: ''if you know what this does, please provide a detailed description here''
 
-'''fill''': ''if you know what this does, please provide a detailed description here''
+{{Button|fill}}: ''if you know what this does, please provide a detailed description here''
 
 == stats ==
 
