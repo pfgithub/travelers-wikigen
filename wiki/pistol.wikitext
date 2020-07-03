@@ -1,0 +1,14 @@
+{{FixTitle}}
+An [[items|item]]. Icon: <code><nowiki>Г</nowiki></code>.
+
+== description ==
+
+a small handgun, rusted but functional, capable of doing moderate damage over a medium range.
+
+== finding ==
+
+''please edit this section''
+
+== stats ==
+
+'''weight''': 12 units

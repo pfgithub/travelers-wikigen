@@ -22,6 +22,8 @@
 
 <code><nowiki>¤</nowiki></code> [[steel shard]]
 
+<code><nowiki>=-</nowiki></code> [[syringe]]
+
 <code><nowiki>s</nowiki></code> [[wire]]
 
 <code><nowiki>/</nowiki></code> [[wood plank]]
@@ -48,9 +50,14 @@
 
 <code><nowiki>––0</nowiki></code> [[sledgehammer]]
 
+<code><nowiki>︺</nowiki></code> [[small boat]]
+
+
 == Building Materials ==
 
 <code><nowiki>▭</nowiki></code> [[large storage unit]]
+
+<code><nowiki>┬</nowiki></code> [[personal reality anchor]]
 
 '''<code><nowiki>#</nowiki></code>''' [[reinforced steel fence]]
 
@@ -78,6 +85,8 @@
 
 <code><nowiki>!</nowiki></code> [[machete]]
 
+<code><nowiki>Г</nowiki></code> [[pistol]]
+
 <code><nowiki>4</nowiki></code> [[rusty knife]]
 
 <code><nowiki>~==</nowiki></code> [[shotgun]]
@@ -88,6 +97,18 @@
 
 <code><nowiki>O</nowiki></code> [[unknown material fragment]]
 
+<code><nowiki>[a]</nowiki></code> [[key card a]]
+
+<code><nowiki>[b]</nowiki></code> [[key card b]]
+
+<code><nowiki>[c]</nowiki></code> [[key card c]]
+
+<code><nowiki>[d]</nowiki></code> [[key card d]]
+
+<code><nowiki>[e]</nowiki></code> [[key card e]]
+
 == Blueprints ==
 
 <code><nowiki>[]</nowiki></code> [[bp: metal detector]]
+
+<code><nowiki>[]</nowiki></code> [[bp: personal reality anchor]]

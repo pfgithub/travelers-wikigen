@@ -1,0 +1,14 @@
+{{FixTitle}}
+An [[items|item]]. Icon: <code><nowiki>=-</nowiki></code>.
+
+== description ==
+
+intended for injecting liquids into a bloodstream.
+
+== finding ==
+
+''please edit this section''
+
+== stats ==
+
+'''weight''': 3 units

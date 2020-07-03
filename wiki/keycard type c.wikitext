@@ -1,0 +1,14 @@
+{{FixTitle}}
+An [[items|item]]. Icon: <code><nowiki>[c]</nowiki></code>.
+
+== description ==
+
+it describes itself as a security clearance card, with access limited to "group c".
+
+== finding ==
+
+''please edit this section''
+
+== stats ==
+
+'''weight''': 1 units

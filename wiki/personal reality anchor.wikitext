@@ -1,0 +1,23 @@
+{{FixTitle}}
+An [[items|item]]. Icon: <code><nowiki>┬</nowiki></code>.
+
+== description ==
+
+anchors the user's reality to a specific location. upon death, the user will reincarnate wherever their anchor was placed.
+
+== crafting ==
+
+unlocked with [[bp: personal reality anchor]].
+
+* 1 [[control panel]]
+* 1 [[energy cell]]
+* 1 [[unknown material fragment]]
+* 250 seconds
+
+== building ==
+
+'''description''': place the anchor on the ground and it will activate automatically. if you craft a new anchor and place it somewhere else, you will reincarnate there and previously placed anchors will be forgotten. if your anchor ends up blocked off, such that there is no safe location to reincarnate next to it, the anchor will be forgotten. once the anchor is placed, it will permanently stay at that location until destroyed. it cannot be picked up and used again.
+
+== stats ==
+
+'''weight''': 13 units

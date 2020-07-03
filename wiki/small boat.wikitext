@@ -1,0 +1,23 @@
+{{FixTitle}}
+An [[items|item]]. Icon: <code><nowiki>︺</nowiki></code>.
+
+== description ==
+
+capable of floating in water, and durable enough to resist acidic corrosion. it's barely large enough for one person.
+
+== crafting ==
+
+unlocked with [[bp: small boat]].
+
+* 15 [[wood plank]]
+* 25 [[plastic pieces]]
+* 5 [[steel shard]]
+* 100 seconds
+
+== action ==
+
+'''when equipped''': will allow safe travel over acidic waters. do not unequip unless you are in a safe location.
+
+== stats ==
+
+'''weight''': 40 units
