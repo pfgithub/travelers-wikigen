@@ -1,0 +1,14 @@
+{{FixTitle}}
+An [[items|item]]. Icon: <code><nowiki>[d]</nowiki></code>.
+
+== description ==
+
+it describes itself as a security clearance card, with access limited to "group d".
+
+== finding ==
+
+''please edit this section''
+
+== stats ==
+
+'''weight''': 1 units

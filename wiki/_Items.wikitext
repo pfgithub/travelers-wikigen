@@ -8,10 +8,6 @@
 
 <code><nowiki>§</nowiki></code> [[copper coil]]
 
-<code><nowiki>&lt;c</nowiki></code> [[copper ore]]
-
-<code><nowiki>o</nowiki></code> [[energy cell]]
-
 <code><nowiki>ß</nowiki></code> [[plastic pieces]]
 
 <code><nowiki>~</nowiki></code> [[rope]]
@@ -26,8 +22,6 @@
 
 <code><nowiki>s</nowiki></code> [[wire]]
 
-<code><nowiki>/</nowiki></code> [[wood plank]]
-
 == Tools ==
 
 <code><nowiki>%</nowiki></code> [[active camouflage]]
@@ -40,6 +34,8 @@
 
 <code><nowiki>(S)</nowiki></code> [[high-range rescue scanner]]
 
+<code><nowiki>(t)</nowiki></code> [[low-range personal teleporter]]
+
 <code><nowiki>(s)</nowiki></code> [[low-range rescue scanner]]
 
 <code><nowiki>¯\_</nowiki></code> [[metal detector]]
@@ -51,7 +47,6 @@
 <code><nowiki>––0</nowiki></code> [[sledgehammer]]
 
 <code><nowiki>︺</nowiki></code> [[small boat]]
-
 
 == Building Materials ==
 
@@ -95,20 +90,14 @@
 
 <code><nowiki>@</nowiki></code> [[charged core]]
 
+<code><nowiki>[a]</nowiki></code> [[keycard type a]]
+
+<code><nowiki>[b]</nowiki></code> [[keycard type b]]
+
+<code><nowiki>[c]</nowiki></code> [[keycard type c]]
+
+<code><nowiki>[d]</nowiki></code> [[keycard type d]]
+
+<code><nowiki>[e]</nowiki></code> [[keycard type e]]
+
 <code><nowiki>O</nowiki></code> [[unknown material fragment]]
-
-<code><nowiki>[a]</nowiki></code> [[key card a]]
-
-<code><nowiki>[b]</nowiki></code> [[key card b]]
-
-<code><nowiki>[c]</nowiki></code> [[key card c]]
-
-<code><nowiki>[d]</nowiki></code> [[key card d]]
-
-<code><nowiki>[e]</nowiki></code> [[key card e]]
-
-== Blueprints ==
-
-<code><nowiki>[]</nowiki></code> [[bp: metal detector]]
-
-<code><nowiki>[]</nowiki></code> [[bp: personal reality anchor]]

@@ -1,0 +1,32 @@
+{{FixTitle}}
+An [[items|item]]. Icon: <code><nowiki>(t)</nowiki></code>.
+
+== description ==
+
+capable of teleporting 10 kilometers in a cardinal direction. consumes 1 energy cell per teleport.
+
+== crafting ==
+
+unlocked with [[bp: low-range personal teleporter]].
+
+* 1 [[control panel]]
+* 1 [[charged core]]
+* 15 [[wire]]
+* 25 [[scrap metal]]
+* 5000 seconds
+
+== actions ==
+
+a delicate device that can teleport you 10km in any direction, if the current location or destination do not have too much interference. requires 1 energy cell to engage a teleport.
+
+'''teleport north''': ''if you know what this does, please provide a detailed description here''
+
+'''teleport east''': ''if you know what this does, please provide a detailed description here''
+
+'''teleport south''': ''if you know what this does, please provide a detailed description here''
+
+'''teleport west''': ''if you know what this does, please provide a detailed description here''
+
+== stats ==
+
+'''weight''': 20 units
