@@ -1,0 +1,14 @@
+{{FixTitle}}
+An [[items|item]]. Icon: <code><nowiki>K-v</nowiki></code>.
+
+== description ==
+
+a rusty key.
+
+== finding ==
+
+''please edit this section''
+
+== stats ==
+
+'''weight''': 2 units

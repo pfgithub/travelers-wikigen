@@ -1,0 +1,14 @@
+{{FixTitle}}
+An [[items|item]]. Icon: <code><nowiki>·</nowiki></code>.
+
+== description ==
+
+a piece of lead wrapped in metal. capable of inflicting moderate damage over a medium range.
+
+== finding ==
+
+''please edit this section''
+
+== stats ==
+
+'''weight''': 2 units

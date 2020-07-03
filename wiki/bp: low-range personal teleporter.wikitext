@@ -1,0 +1,18 @@
+{{FixTitle}}
+An [[items|item]]. Icon: <code><nowiki>[]</nowiki></code>.
+
+== description ==
+
+a blueprint for the creation of a device that can teleport you short distances.
+
+== finding ==
+
+''please edit this section''
+
+== blueprint ==
+
+learn to unlock the recipe for [[low_teleporter]].
+
+== stats ==
+
+'''weight''': 1 units

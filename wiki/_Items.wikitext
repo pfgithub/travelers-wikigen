@@ -1,5 +1,7 @@
 == Miscellaneous ==
 
+<code><nowiki>·</nowiki></code> [[bullet]]
+
 <code><nowiki>▓</nowiki></code> [[circuit board]]
 
 <code><nowiki>c</nowiki></code> [[cloth]]
@@ -7,6 +9,10 @@
 <code><nowiki>&lt;&gt;</nowiki></code> [[control panel]]
 
 <code><nowiki>§</nowiki></code> [[copper coil]]
+
+<code><nowiki>o</nowiki></code> [[energy cell]]
+
+<code><nowiki>K-v</nowiki></code> [[maintenance key]]
 
 <code><nowiki>ß</nowiki></code> [[plastic pieces]]
 
@@ -18,9 +24,9 @@
 
 <code><nowiki>¤</nowiki></code> [[steel shard]]
 
-<code><nowiki>=-</nowiki></code> [[syringe]]
-
 <code><nowiki>s</nowiki></code> [[wire]]
+
+<code><nowiki>/</nowiki></code> [[wood plank]]
 
 == Tools ==
 
@@ -31,6 +37,8 @@
 <code><nowiki>X</nowiki></code> [[bolt cutters]]
 
 <code><nowiki>{</nowiki></code> [[crowbar]]
+
+<code><nowiki>(T)</nowiki></code> [[high-range personal teleporter]]
 
 <code><nowiki>(S)</nowiki></code> [[high-range rescue scanner]]
 
@@ -74,10 +82,6 @@
 
 <code><nowiki>-==</nowiki></code> [[baseball bat]]
 
-<code><nowiki>{,</nowiki></code> [[broken soda bottle]]
-
-<code><nowiki>Û</nowiki></code> [[fire extinguisher]]
-
 <code><nowiki>!</nowiki></code> [[machete]]
 
 <code><nowiki>Г</nowiki></code> [[pistol]]
@@ -101,3 +105,7 @@
 <code><nowiki>[e]</nowiki></code> [[keycard type e]]
 
 <code><nowiki>O</nowiki></code> [[unknown material fragment]]
+
+== Blueprints ==
+
+<code><nowiki>[]</nowiki></code> [[bp: low-range personal teleporter]]
