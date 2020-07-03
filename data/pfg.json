@@ -1,0 +1,1194 @@
+{
+	"data": {
+		"blueprints": [
+			{
+				"metal_detector": {
+					"name": "metal_detector",
+					"title": "metal detector",
+					"type": "tool",
+					"weight": 15,
+					"icon": "¯\\_",
+					"desc": "detects materials hidden underground.",
+					"craft": true,
+					"craft_time": 80,
+					"craft_data": {
+						"scrap_metal": {
+							"count": 20,
+							"title": "scrap metal"
+						},
+						"circuit_board": {
+							"count": 1,
+							"title": "circuit board"
+						},
+						"wire": {
+							"count": 3,
+							"title": "wire"
+						},
+						"battery": {
+							"count": 1,
+							"title": "energy cell"
+						}
+					},
+					"func": true,
+					"func_desc": "while walking, the metal detector will ping if it finds useful materials underground automatically. if you have a shovel, you can also dig in place without needing to equip it.",
+					"func_actions": {
+						"dig_with_shovel": {
+							"server": "dig_with_shovel",
+							"client": "if (SUPPLIES.current['shovel'] !== undefined) {ENGINE.log('digging...', false);} else {ENGINE.log('you don\\'t have a shovel.');}",
+							"btn_text": "dig",
+							"show_status": false
+						}
+					}
+				}
+			}
+		],
+		"craft_items": {
+			"0": [
+				{
+					"rusty_knife": {
+						"name": "rusty_knife",
+						"title": "rusty knife",
+						"type": "weap",
+						"weight": 4,
+						"icon": "4",
+						"desc": "an old butcher's knife, edge rusted away, but still capable of damage.",
+						"craft": true,
+						"craft_time": 15,
+						"craft_data": {
+							"wood_stick": {
+								"count": 1,
+								"title": "wood plank"
+							},
+							"scrap_metal": {
+								"count": 2,
+								"title": "scrap metal"
+							}
+						},
+						"weapon": true,
+						"weapon_data": {
+							"dmg": 9,
+							"sp": 7
+						}
+					}
+				},
+				{
+					"crowbar": {
+						"name": "crowbar",
+						"title": "crowbar",
+						"type": "tool",
+						"weight": 6,
+						"icon": "{",
+						"desc": "a long, curved piece of steel, meant for prying things apart.",
+						"craft": true,
+						"craft_time": 30,
+						"craft_data": {
+							"scrap_metal": {
+								"count": 2,
+								"title": "scrap metal"
+							},
+							"steel_shard": {
+								"count": 5,
+								"title": "steel shard"
+							}
+						}
+					}
+				}
+			],
+			"4": [
+				{
+					"shovel": {
+						"name": "shovel",
+						"title": "shovel",
+						"type": "tool",
+						"weight": 7,
+						"icon": "––D",
+						"desc": "digs holes. could also be used as a weapon in a pinch.",
+						"craft": true,
+						"craft_time": 20,
+						"craft_data": {
+							"wood_stick": {
+								"count": 1,
+								"title": "wood plank"
+							},
+							"scrap_metal": {
+								"count": 3,
+								"title": "scrap metal"
+							}
+						},
+						"weapon": true,
+						"weapon_data": {
+							"dmg": 21,
+							"sp": 20
+						},
+						"func": true,
+						"func_desc": "a simple shovel, capable of digging a few feet into the ground, or filling in a hole.",
+						"func_actions": {
+							"dig": {
+								"server": "dig",
+								"client": "ENGINE.log('digging...');",
+								"btn_text": "dig"
+							},
+							"fill": {
+								"server": "fill",
+								"client": "",
+								"btn_text": "fill"
+							}
+						}
+					}
+				},
+				{
+					"sign_block": {
+						"name": "sign_block",
+						"title": "wooden sign",
+						"type": "build",
+						"weight": 10,
+						"icon": "¶",
+						"desc": "a wooden sign, upon which a message can be written.",
+						"craft": true,
+						"craft_time": 30,
+						"craft_data": {
+							"wood_stick": {
+								"count": 8,
+								"title": "wood plank"
+							},
+							"scrap_metal": {
+								"count": 2,
+								"title": "scrap metal"
+							}
+						},
+						"break_time": 900,
+						"build": true,
+						"build_desc": "when placed, you will be able to write a short message on it, visible to any traveler who visits it."
+					}
+				}
+			],
+			"9": [
+				{
+					"bolt_cutters": {
+						"name": "bolt_cutters",
+						"title": "bolt cutters",
+						"type": "tool",
+						"weight": 7,
+						"icon": "X",
+						"desc": "two long handles, bolted on an axle and tipped with steel. capable of snipping many materials.",
+						"craft": true,
+						"craft_time": 45,
+						"craft_data": {
+							"scrap_metal": {
+								"count": 6,
+								"title": "scrap metal"
+							},
+							"steel_shard": {
+								"count": 2,
+								"title": "steel shard"
+							},
+							"rope": {
+								"count": 2,
+								"title": "rope"
+							}
+						}
+					}
+				},
+				{
+					"baseball_bat": {
+						"name": "baseball_bat",
+						"title": "baseball bat",
+						"type": "weap",
+						"weight": 9,
+						"icon": "-==",
+						"desc": "once used for sport, this bat now serves as a blunt weapon.",
+						"craft": true,
+						"craft_time": 30,
+						"craft_data": {
+							"wood_stick": {
+								"count": 5,
+								"title": "wood plank"
+							},
+							"steel_shard": {
+								"count": 3,
+								"title": "steel shard"
+							}
+						},
+						"weapon": true,
+						"weapon_data": {
+							"dmg": 10,
+							"sp": 9
+						}
+					}
+				},
+				{
+					"wood_block": {
+						"name": "wood_block",
+						"title": "wooden fence",
+						"type": "build",
+						"weight": 20,
+						"icon": "+",
+						"desc": "a kilometer's worth of wooden fencing.",
+						"craft": true,
+						"craft_time": 90,
+						"craft_data": {
+							"wood_stick": {
+								"count": 30,
+								"title": "wood plank"
+							}
+						},
+						"break_time": 7200,
+						"build": true,
+						"build_desc": "a kilometer of wooden fencing. it can't be walked over, but it's fairly easy to break through."
+					}
+				},
+				{
+					"wood_door": {
+						"name": "wood_door",
+						"title": "wooden gate",
+						"type": "build",
+						"weight": 25,
+						"icon": "D",
+						"desc": "a crude gate fashioned out of wood.",
+						"craft": true,
+						"craft_time": 150,
+						"craft_data": {
+							"wood_block": {
+								"count": 1,
+								"title": "wooden fence"
+							},
+							"scrap_metal": {
+								"count": 3,
+								"title": "scrap metal"
+							},
+							"rope": {
+								"count": 2,
+								"title": "rope"
+							}
+						},
+						"break_time": 7200,
+						"build": true,
+						"build_desc": "a crude gate fashioned out of wood. secured by a passcode mechanism."
+					}
+				},
+				{
+					"wire": {
+						"name": "wire",
+						"title": "wire",
+						"type": "misc",
+						"weight": 1,
+						"icon": "s",
+						"desc": "a line of copper wrapped in an insulator to carry electricity.",
+						"craft": true,
+						"craft_time": 8,
+						"craft_data": {
+							"copper_coil": {
+								"count": 1,
+								"title": "copper coil"
+							},
+							"cloth": {
+								"count": 1,
+								"title": "cloth"
+							}
+						}
+					}
+				}
+			],
+			"14": [
+				{
+					"copper_coil": {
+						"name": "copper_coil",
+						"title": "copper coil",
+						"type": "misc",
+						"weight": 5,
+						"icon": "§",
+						"desc": "hard and exposed copper wire, coiled around a plastic spool.",
+						"craft": true,
+						"craft_time": 25,
+						"craft_data": {
+							"copper_ore": {
+								"count": 2,
+								"title": "copper ore"
+							}
+						}
+					}
+				},
+				{
+					"camo": {
+						"name": "camo",
+						"title": "active camouflage",
+						"type": "tool",
+						"weight": 5,
+						"icon": "%",
+						"desc": "when laying to rest, the user becomes very difficult to see, only visible within a range of 5 kilometers.",
+						"craft": true,
+						"craft_time": 35,
+						"craft_data": {
+							"circuit_board": {
+								"count": 1,
+								"title": "circuit board"
+							},
+							"wire": {
+								"count": 5,
+								"title": "wire"
+							},
+							"cloth": {
+								"count": 20,
+								"title": "cloth"
+							}
+						},
+						"func": true,
+						"func_desc": "the areas concealed by the suit become invisible when worn. while your head and hands still stick out when standing, you are very difficult to see when asleep, only visible up to 5km away."
+					}
+				},
+				{
+					"scrap_block": {
+						"name": "scrap_block",
+						"title": "scrap metal fence",
+						"type": "build",
+						"weight": 35,
+						"icon": "#",
+						"desc": "a kilometer's worth of scrap metal fencing.",
+						"craft": true,
+						"craft_time": 120,
+						"craft_data": {
+							"scrap_metal": {
+								"count": 30,
+								"title": "scrap metal"
+							},
+							"wood_stick": {
+								"count": 5,
+								"title": "wood plank"
+							}
+						},
+						"break_time": 21600,
+						"build": true,
+						"build_desc": "a kilometer of scrap metal fencing. it can't be walked over, and takes some time to break through."
+					}
+				},
+				{
+					"scrap_door": {
+						"name": "scrap_door",
+						"title": "scrap metal gate",
+						"type": "build",
+						"weight": 30,
+						"icon": "<b>D</b>",
+						"desc": "a metal gate fashioned from scrapped machinery.",
+						"craft": true,
+						"craft_time": 200,
+						"craft_data": {
+							"scrap_block": {
+								"count": 1,
+								"title": "scrap metal fence"
+							},
+							"steel_shard": {
+								"count": 3,
+								"title": "steel shard"
+							},
+							"circuit_board": {
+								"count": 1,
+								"title": "circuit board"
+							}
+						},
+						"break_time": 21600,
+						"build": true,
+						"build_desc": "a metal gate fashioned from scrapped machinery. secured by a passcode mechanism."
+					}
+				}
+			],
+			"19": [
+				{
+					"blowtorch": {
+						"name": "blowtorch",
+						"title": "powered blowtorch",
+						"type": "tool",
+						"weight": 35,
+						"icon": "r=",
+						"desc": "a powerful torch, capable of melting weaker metals.",
+						"craft": true,
+						"craft_time": 150,
+						"craft_data": {
+							"scrap_metal": {
+								"count": 15,
+								"title": "scrap metal"
+							},
+							"wire": {
+								"count": 4,
+								"title": "wire"
+							},
+							"plastic": {
+								"count": 7,
+								"title": "plastic pieces"
+							},
+							"battery": {
+								"count": 2,
+								"title": "energy cell"
+							}
+						}
+					}
+				},
+				{
+					"machete": {
+						"name": "machete",
+						"title": "machete",
+						"type": "weap",
+						"weight": 15,
+						"icon": "!",
+						"desc": "a long and sharp blade, its edge unevenly serrated, capable of heavy damage.",
+						"craft": true,
+						"craft_time": 65,
+						"craft_data": {
+							"wood_stick": {
+								"count": 2,
+								"title": "wood plank"
+							},
+							"scrap_metal": {
+								"count": 10,
+								"title": "scrap metal"
+							},
+							"steel_shard": {
+								"count": 20,
+								"title": "steel shard"
+							}
+						},
+						"weapon": true,
+						"weapon_data": {
+							"dmg": 29,
+							"sp": 17
+						}
+					}
+				},
+				{
+					"control_panel": {
+						"name": "control_panel",
+						"title": "control panel",
+						"type": "misc",
+						"weight": 5,
+						"icon": "&lt;&gt;",
+						"desc": "a small screen with programmable buttons. capable of being rigged up to many different machines.",
+						"craft": true,
+						"craft_time": 75,
+						"craft_data": {
+							"scrap_metal": {
+								"count": 5,
+								"title": "scrap metal"
+							},
+							"plastic": {
+								"count": 5,
+								"title": "plastic pieces"
+							},
+							"circuit_board": {
+								"count": 1,
+								"title": "circuit board"
+							},
+							"wire": {
+								"count": 10,
+								"title": "wire"
+							},
+							"copper_coil": {
+								"count": 2,
+								"title": "copper coil"
+							}
+						}
+					}
+				},
+				{
+					"small_chest": {
+						"name": "small_chest",
+						"title": "small storage unit",
+						"type": "build",
+						"weight": 15,
+						"icon": "◻",
+						"desc": "a small structure capable of holding a lot of items.",
+						"craft": true,
+						"craft_time": 75,
+						"craft_data": {
+							"wood_stick": {
+								"count": 15,
+								"title": "wood plank"
+							},
+							"scrap_metal": {
+								"count": 10,
+								"title": "scrap metal"
+							},
+							"plastic": {
+								"count": 10,
+								"title": "plastic pieces"
+							},
+							"rope": {
+								"count": 4,
+								"title": "rope"
+							}
+						},
+						"break_time": 900,
+						"build": true,
+						"build_desc": "a small structure capable of holding a lot of items."
+					}
+				}
+			],
+			"24": [
+				{
+					"axe": {
+						"name": "axe",
+						"title": "axe",
+						"type": "tool",
+						"weight": 9,
+						"icon": "––A",
+						"desc": "a sharp axe, capable of breaking down strong structures.",
+						"craft": true,
+						"craft_time": 25,
+						"craft_data": {
+							"wood_stick": {
+								"count": 2,
+								"title": "wood plank"
+							},
+							"steel_shard": {
+								"count": 5,
+								"title": "steel shard"
+							}
+						},
+						"weapon": true,
+						"weapon_data": {
+							"dmg": 17,
+							"sp": 8
+						},
+						"breaker": true,
+						"break_ratio": 25
+					}
+				},
+				{
+					"large_chest": {
+						"name": "large_chest",
+						"title": "large storage unit",
+						"type": "build",
+						"weight": 25,
+						"icon": "▭",
+						"desc": "a large structure capable of holding a huge amount of items.",
+						"craft": true,
+						"craft_time": 150,
+						"craft_data": {
+							"steel_shard": {
+								"count": 10,
+								"title": "steel shard"
+							},
+							"scrap_metal": {
+								"count": 15,
+								"title": "scrap metal"
+							},
+							"wood_stick": {
+								"count": 25,
+								"title": "wood plank"
+							},
+							"rope": {
+								"count": 4,
+								"title": "rope"
+							}
+						},
+						"break_time": 1800,
+						"build": true,
+						"build_desc": "a small structure capable of holding a lot of items."
+					}
+				}
+			],
+			"29": [
+				{
+					"steel_block": {
+						"name": "steel_block",
+						"title": "reinforced steel fence",
+						"type": "build",
+						"weight": 50,
+						"icon": "<b>#</b>",
+						"desc": "a kilometer's worth of reinforced steel fencing.",
+						"craft": true,
+						"craft_time": 150,
+						"craft_data": {
+							"steel_shard": {
+								"count": 30,
+								"title": "steel shard"
+							},
+							"scrap_metal": {
+								"count": 5,
+								"title": "scrap metal"
+							},
+							"wood_stick": {
+								"count": 5,
+								"title": "wood plank"
+							}
+						},
+						"break_time": 57600,
+						"build": true,
+						"build_desc": "a kilometer of reinforced steel fencing. it can't be walked over, and takes a lot of time to break through."
+					}
+				},
+				{
+					"sledgehammer": {
+						"name": "sledgehammer",
+						"title": "sledgehammer",
+						"type": "tool",
+						"weight": 9,
+						"icon": "––0",
+						"desc": "a heavy hammer, capable of quick destruction.",
+						"craft": true,
+						"craft_time": 25,
+						"craft_data": {
+							"scrap_metal": {
+								"count": 5,
+								"title": "scrap metal"
+							},
+							"steel_shard": {
+								"count": 8,
+								"title": "steel shard"
+							}
+						},
+						"weapon": true,
+						"weapon_data": {
+							"dmg": 22,
+							"sp": 16
+						},
+						"breaker": true,
+						"break_ratio": 40
+					}
+				},
+				{
+					"steel_door": {
+						"name": "steel_door",
+						"title": "steel gate",
+						"type": "build",
+						"weight": 35,
+						"icon": "$",
+						"desc": "a sturdy gate fashioned from strong steel.",
+						"craft": true,
+						"craft_time": 250,
+						"craft_data": {
+							"steel_block": {
+								"count": 1,
+								"title": "reinforced steel fence"
+							},
+							"copper_coil": {
+								"count": 4,
+								"title": "copper coil"
+							},
+							"control_panel": {
+								"count": 1,
+								"title": "control panel"
+							}
+						},
+						"break_time": 57600,
+						"build": true,
+						"build_desc": "a metal gate fashioned from scrapped machinery. secured by a small computer with a keypad."
+					}
+				}
+			],
+			"34": [
+				{
+					"charged_core": {
+						"name": "charged_core",
+						"title": "charged core",
+						"type": "rare",
+						"weight": 15,
+						"icon": "@",
+						"desc": "a spherical cell, capable of supplying a large amount of power.",
+						"craft": true,
+						"craft_time": 500,
+						"craft_data": {
+							"scrap_metal": {
+								"count": 10,
+								"title": "scrap metal"
+							},
+							"circuit_board": {
+								"count": 2,
+								"title": "circuit board"
+							},
+							"wire": {
+								"count": 5,
+								"title": "wire"
+							},
+							"battery": {
+								"count": 3,
+								"title": "energy cell"
+							},
+							"copper_coil": {
+								"count": 1,
+								"title": "copper coil"
+							}
+						}
+					}
+				},
+				{
+					"player_scanner": {
+						"name": "player_scanner",
+						"title": "low-range rescue scanner",
+						"type": "tool",
+						"weight": 15,
+						"icon": "(s)",
+						"desc": "scans for intelligent life within a square radius of 30 kilometers, and beeps with volume proportional to the distance of the closest lifeform.",
+						"craft": true,
+						"craft_time": 750,
+						"craft_data": {
+							"control_panel": {
+								"count": 1,
+								"title": "control panel"
+							},
+							"battery": {
+								"count": 5,
+								"title": "energy cell"
+							},
+							"wire": {
+								"count": 10,
+								"title": "wire"
+							},
+							"scrap_metal": {
+								"count": 15,
+								"title": "scrap metal"
+							}
+						},
+						"func": true,
+						"func_desc": "scans for intelligent life within a square radius of 30 kilometers, and beeps with volume proportional to the distance of the closest lifeform.",
+						"func_start": "ENGINE.log('the device has a single button on it, with an electric speaker next to it.');",
+						"func_actions": {
+							"scan": {
+								"server": "scan",
+								"client": "ENGINE.log('scanning for life...', false);",
+								"btn_text": "scan"
+							}
+						}
+					}
+				}
+			],
+			"39": [
+				{
+					"player_scanner_highrange": {
+						"name": "player_scanner_highrange",
+						"title": "high-range rescue scanner",
+						"type": "tool",
+						"weight": 20,
+						"icon": "(S)",
+						"desc": "scans for intelligent life within a square radius of 100 kilometers, and will indicate the approximate direction.",
+						"craft": true,
+						"craft_time": 4000,
+						"craft_data": {
+							"player_scanner": {
+								"count": 1,
+								"title": "low-range rescue scanner"
+							},
+							"charged_core": {
+								"count": 1,
+								"title": "charged core"
+							},
+							"wire": {
+								"count": 10,
+								"title": "wire"
+							},
+							"plastic": {
+								"count": 5,
+								"title": "plastic pieces"
+							}
+						},
+						"func": true,
+						"func_desc": "scans for intelligent life within a square radius of 100 kilometers, and will indicate the approximate direction.",
+						"func_start": "ENGINE.log('the device shows a white light, a green light, and a red light, and an arrow that spins freely. you switch the scanner on and the white light activates.');",
+						"func_actions": {
+							"scan": {
+								"server": "scan",
+								"client": "ENGINE.log('scanning for life...', false);",
+								"btn_text": "scan"
+							}
+						}
+					}
+				}
+			],
+			"49": [],
+			"59": [],
+			"blueprints": [
+				{
+					"metal_detector": {
+						"name": "metal_detector",
+						"title": "metal detector",
+						"type": "tool",
+						"weight": 15,
+						"icon": "¯\\_",
+						"desc": "detects materials hidden underground.",
+						"craft": true,
+						"craft_time": 80,
+						"craft_data": {
+							"scrap_metal": {
+								"count": 20,
+								"title": "scrap metal"
+							},
+							"circuit_board": {
+								"count": 1,
+								"title": "circuit board"
+							},
+							"wire": {
+								"count": 3,
+								"title": "wire"
+							},
+							"battery": {
+								"count": 1,
+								"title": "energy cell"
+							}
+						},
+						"func": true,
+						"func_desc": "while walking, the metal detector will ping if it finds useful materials underground automatically. if you have a shovel, you can also dig in place without needing to equip it.",
+						"func_actions": {
+							"dig_with_shovel": {
+								"server": "dig_with_shovel",
+								"client": "if (SUPPLIES.current['shovel'] !== undefined) {ENGINE.log('digging...', false);} else {ENGINE.log('you don\\'t have a shovel.');}",
+								"btn_text": "dig",
+								"show_status": false
+							}
+						}
+					}
+				}
+			]
+		},
+		"supplies": {
+			"wood_stick": {
+				"count": 52,
+				"data": {
+					"name": "wood_stick",
+					"title": "wood plank",
+					"type": "misc",
+					"weight": 1,
+					"icon": "/",
+					"desc": "a plank of old wood. versatile and cheap."
+				}
+			},
+			"scrap_metal": {
+				"count": 565,
+				"data": {
+					"name": "scrap_metal",
+					"title": "scrap metal",
+					"type": "misc",
+					"weight": 2,
+					"icon": "ð",
+					"desc": "a few shards of metal. probably can be bent into useful shapes."
+				}
+			},
+			"cloth": {
+				"count": 92,
+				"data": {
+					"name": "cloth",
+					"title": "cloth",
+					"type": "misc",
+					"weight": 1,
+					"icon": "c",
+					"desc": "tattered and partially rotted fabric, but combined with others like it, could still be put to use."
+				}
+			},
+			"soda_bottle": {
+				"count": 10,
+				"data": {
+					"name": "soda_bottle",
+					"title": "broken soda bottle",
+					"type": "weap",
+					"weight": 5,
+					"icon": "{,",
+					"desc": "a broken glass soda bottle, the faded label of its blue and red logo still prominent.",
+					"weapon": true,
+					"weapon_data": {
+						"dmg": 8,
+						"sp": 6
+					}
+				}
+			},
+			"rope": {
+				"count": 57,
+				"data": {
+					"name": "rope",
+					"title": "rope",
+					"type": "misc",
+					"weight": 3,
+					"icon": "~",
+					"desc": "a small section of rope, its ends frayed."
+				}
+			},
+			"copper_coil": {
+				"count": 29,
+				"data": {
+					"name": "copper_coil",
+					"title": "copper coil",
+					"type": "misc",
+					"weight": 5,
+					"icon": "§",
+					"desc": "hard and exposed copper wire, coiled around a plastic spool.",
+					"craft": true,
+					"craft_time": 25,
+					"craft_data": {
+						"copper_ore": {
+							"count": 2,
+							"title": "copper ore"
+						}
+					}
+				}
+			},
+			"wire": {
+				"count": 30,
+				"data": {
+					"name": "wire",
+					"title": "wire",
+					"type": "misc",
+					"weight": 1,
+					"icon": "s",
+					"desc": "a line of copper wrapped in an insulator to carry electricity.",
+					"craft": true,
+					"craft_time": 8,
+					"craft_data": {
+						"copper_coil": {
+							"count": 1,
+							"title": "copper coil"
+						},
+						"cloth": {
+							"count": 1,
+							"title": "cloth"
+						}
+					}
+				}
+			},
+			"battery": {
+				"count": 12,
+				"data": {
+					"name": "battery",
+					"title": "energy cell",
+					"type": "misc",
+					"weight": 4,
+					"icon": "o",
+					"desc": "a charged battery, from a time when energy was unlimited."
+				}
+			},
+			"circuit_board": {
+				"count": 4,
+				"data": {
+					"name": "circuit_board",
+					"title": "circuit board",
+					"type": "misc",
+					"weight": 2,
+					"icon": "▓",
+					"desc": "old and broken, but its electric components can still be used."
+				}
+			},
+			"steel_shard": {
+				"count": 106,
+				"data": {
+					"name": "steel_shard",
+					"title": "steel shard",
+					"type": "misc",
+					"weight": 5,
+					"icon": "¤",
+					"desc": "high quality steel that seems to have been ripped off some old machine."
+				}
+			},
+			"shovel": {
+				"count": 1,
+				"data": {
+					"name": "shovel",
+					"title": "shovel",
+					"type": "tool",
+					"weight": 7,
+					"icon": "––D",
+					"desc": "digs holes. could also be used as a weapon in a pinch.",
+					"craft": true,
+					"craft_time": 20,
+					"craft_data": {
+						"wood_stick": {
+							"count": 1,
+							"title": "wood plank"
+						},
+						"scrap_metal": {
+							"count": 3,
+							"title": "scrap metal"
+						}
+					},
+					"weapon": true,
+					"weapon_data": {
+						"dmg": 21,
+						"sp": 20
+					},
+					"func": true,
+					"func_desc": "a simple shovel, capable of digging a few feet into the ground, or filling in a hole.",
+					"func_actions": {
+						"dig": {
+							"server": "dig",
+							"client": "ENGINE.log('digging...');",
+							"btn_text": "dig"
+						},
+						"fill": {
+							"server": "fill",
+							"client": "",
+							"btn_text": "fill"
+						}
+					}
+				}
+			},
+			"alien_fragment": {
+				"count": 10,
+				"data": {
+					"name": "alien_fragment",
+					"title": "unknown material fragment",
+					"type": "rare",
+					"weight": 10,
+					"icon": "O",
+					"desc": "a heavy, spherical material that mostly resembles stone, but it glows bright purple, its hue shifting slightly when viewed from different angles. its surface, where not cracked, is extremely smooth, and it has a unique scent."
+				}
+			},
+			"fire_extinguisher": {
+				"count": 5,
+				"data": {
+					"name": "fire_extinguisher",
+					"title": "fire extinguisher",
+					"type": "weap",
+					"weight": 11,
+					"icon": "Û",
+					"desc": "an empty metal can, once capable of saving lives, is now used to inflict pain.",
+					"weapon": true,
+					"weapon_data": {
+						"dmg": 11,
+						"sp": 11
+					}
+				}
+			},
+			"rusty_knife": {
+				"count": 1,
+				"data": {
+					"name": "rusty_knife",
+					"title": "rusty knife",
+					"type": "weap",
+					"weight": 4,
+					"icon": "4",
+					"desc": "an old butcher's knife, edge rusted away, but still capable of damage.",
+					"craft": true,
+					"craft_time": 15,
+					"craft_data": {
+						"wood_stick": {
+							"count": 1,
+							"title": "wood plank"
+						},
+						"scrap_metal": {
+							"count": 2,
+							"title": "scrap metal"
+						}
+					},
+					"weapon": true,
+					"weapon_data": {
+						"dmg": 9,
+						"sp": 7
+					}
+				}
+			},
+			"plastic": {
+				"count": 3,
+				"data": {
+					"name": "plastic",
+					"title": "plastic pieces",
+					"type": "misc",
+					"weight": 2,
+					"icon": "ß",
+					"desc": "some different kinds of plastic, molded together."
+				}
+			},
+			"machete": {
+				"count": 1,
+				"data": {
+					"name": "machete",
+					"title": "machete",
+					"type": "weap",
+					"weight": 15,
+					"icon": "!",
+					"desc": "a long and sharp blade, its edge unevenly serrated, capable of heavy damage.",
+					"craft": true,
+					"craft_time": 65,
+					"craft_data": {
+						"wood_stick": {
+							"count": 2,
+							"title": "wood plank"
+						},
+						"scrap_metal": {
+							"count": 10,
+							"title": "scrap metal"
+						},
+						"steel_shard": {
+							"count": 20,
+							"title": "steel shard"
+						}
+					},
+					"weapon": true,
+					"weapon_data": {
+						"dmg": 29,
+						"sp": 17
+					}
+				}
+			},
+			"metal_detector": {
+				"count": 1,
+				"data": {
+					"name": "metal_detector",
+					"title": "metal detector",
+					"type": "tool",
+					"weight": 15,
+					"icon": "¯\\_",
+					"desc": "detects materials hidden underground.",
+					"craft": true,
+					"craft_time": 80,
+					"craft_data": {
+						"scrap_metal": {
+							"count": 20,
+							"title": "scrap metal"
+						},
+						"circuit_board": {
+							"count": 1,
+							"title": "circuit board"
+						},
+						"wire": {
+							"count": 3,
+							"title": "wire"
+						},
+						"battery": {
+							"count": 1,
+							"title": "energy cell"
+						}
+					},
+					"func": true,
+					"func_desc": "while walking, the metal detector will ping if it finds useful materials underground automatically. if you have a shovel, you can also dig in place without needing to equip it.",
+					"func_actions": {
+						"dig_with_shovel": {
+							"server": "dig_with_shovel",
+							"client": "if (SUPPLIES.current['shovel'] !== undefined) {ENGINE.log('digging...', false);} else {ENGINE.log('you don\\'t have a shovel.');}",
+							"btn_text": "dig",
+							"show_status": false
+						}
+					}
+				}
+			},
+			"copper_ore": {
+				"count": 81,
+				"data": {
+					"name": "copper_ore",
+					"title": "copper ore",
+					"type": "misc",
+					"weight": 6,
+					"icon": "&lt;c",
+					"desc": "contains pure copper."
+				}
+			},
+			"shotgun_shell": {
+				"count": 1,
+				"data": {
+					"name": "shotgun_shell",
+					"title": "shotgun shell",
+					"type": "misc",
+					"weight": 3,
+					"icon": "<b>-</b>",
+					"desc": "a cylinder of plastic containing several tiny metal balls. capable of inflicting heavy damage over a short range."
+				}
+			},
+			"bp_metal_detector": {
+				"count": 1,
+				"data": {
+					"name": "bp_metal_detector",
+					"title": "bp: metal detector",
+					"type": "bp",
+					"weight": 1,
+					"icon": "[]",
+					"desc": "a blueprint for the creation of a device that can detect materials underground.",
+					"is_bp": true,
+					"bp_for": "metal_detector"
+				}
+			}
+		}
+	}
+}

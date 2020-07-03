@@ -1,6 +1,6 @@
-const data = require("./data.json").data;
 const extras = require("./extras.json");
 const fs = require("fs").promises;
+
 
 const resDir = __dirname + "/" + "wiki/";
 
@@ -25,6 +25,21 @@ let categories = {
 let catSort = ["misc", "tool", "build", "weap", "rare", "bp"];
 
 (async () => {
+    let datas = await fs.readdir(__dirname + "/data");
+    let data = {craft_items: {}, supplies: {}};
+    for(let datafile of datas) {
+        let text = await fs.readFile(__dirname + "/data/" + datafile, "utf-8");
+        const json = JSON.parse(text);
+        for(let [key, value] of Object.entries(json.data.craft_items)) {
+            if(!data.craft_items[key]) data.craft_items[key] = [];
+            data.craft_items[key].push(...value);
+        }
+        for(let [suplname, value] of Object.entries(json.data.supplies)) {
+            data.supplies[suplname] = value;
+        }
+    }
+    console.log(data);
+    
     await fs.mkdir(resDir, { recursive: true });
 
     let items = Object.values(data.supplies);

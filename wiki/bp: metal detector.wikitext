@@ -11,7 +11,7 @@ a blueprint for the creation of a device that can detect materials underground.
 
 == blueprint ==
 
-learn to unlock the recipe for [[metal_detector]].
+learn to unlock the recipe for [[metal detector]].
 
 == stats ==
 

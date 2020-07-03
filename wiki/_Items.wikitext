@@ -10,6 +10,8 @@
 
 <code><nowiki>§</nowiki></code> [[copper coil]]
 
+<code><nowiki>&lt;c</nowiki></code> [[copper ore]]
+
 <code><nowiki>o</nowiki></code> [[energy cell]]
 
 <code><nowiki>K-v</nowiki></code> [[maintenance key]]
@@ -23,6 +25,8 @@
 '''<code><nowiki>-</nowiki></code>''' [[shotgun shell]]
 
 <code><nowiki>¤</nowiki></code> [[steel shard]]
+
+<code><nowiki>=-</nowiki></code> [[syringe]]
 
 <code><nowiki>s</nowiki></code> [[wire]]
 
@@ -82,6 +86,10 @@
 
 <code><nowiki>-==</nowiki></code> [[baseball bat]]
 
+<code><nowiki>{,</nowiki></code> [[broken soda bottle]]
+
+<code><nowiki>Û</nowiki></code> [[fire extinguisher]]
+
 <code><nowiki>!</nowiki></code> [[machete]]
 
 <code><nowiki>Г</nowiki></code> [[pistol]]
@@ -109,3 +117,5 @@
 == Blueprints ==
 
 <code><nowiki>[]</nowiki></code> [[bp: low-range personal teleporter]]
+
+<code><nowiki>[]</nowiki></code> [[bp: metal detector]]
