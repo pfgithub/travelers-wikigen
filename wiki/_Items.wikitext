@@ -87,3 +87,7 @@
 <code><nowiki>@</nowiki></code> [[charged core]]
 
 <code><nowiki>O</nowiki></code> [[unknown material fragment]]
+
+== Blueprints ==
+
+<code><nowiki>[]</nowiki></code> [[bp: metal detector]]

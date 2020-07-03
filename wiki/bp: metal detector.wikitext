@@ -1,0 +1,17 @@
+An [[items|item]]. Icon: <code><nowiki>[]</nowiki></code>.
+
+== description ==
+
+a blueprint for the creation of a device that can detect materials underground.
+
+== finding ==
+
+''please edit this section''
+
+== blueprint ==
+
+learn to unlock the recipe for [[metal_detector]].
+
+== stats ==
+
+'''weight''': 1 units

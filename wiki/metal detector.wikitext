@@ -6,7 +6,7 @@ detects materials hidden underground.
 
 == crafting ==
 
-unlocks at [[level NaN]].
+unlocked with [[bp: metal detector]].
 
 * 20 [[scrap metal]]
 * 1 [[circuit board]]

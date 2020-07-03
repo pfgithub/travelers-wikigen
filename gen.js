@@ -10,8 +10,8 @@ let icon = (item) => {
 	return "<code><nowiki>"+item.icon+"</nowiki></code>"
 };
 
-let categories = ({misc: "Miscellaneous", tool: "Tools", build: "Building Materials", weap: "Weapons", rare: "Rare Items"});
-let catSort = ["misc", "tool", "build", "weap", "rare"];
+let categories = ({misc: "Miscellaneous", tool: "Tools", build: "Building Materials", weap: "Weapons", rare: "Rare Items", bp: "Blueprints"});
+let catSort = ["misc", "tool", "build", "weap", "rare", "bp"];
 
 (async () => {
 	await fs.mkdir(resDir, {recursive: true});
@@ -52,8 +52,11 @@ let catSort = ["misc", "tool", "build", "weap", "rare"];
 			let found = Object.entries(data.craft_items).find(([lvl, dat]) => 
 				!!dat.find(v => Object.keys(v)[0] === item.name)
 			);
-			if(found)
-				res += "unlocks at [[level "+(+found[0]+1)+"]].\n\n";
+			if(found[0])
+                if(+found[0]+1)
+                    res += "unlocks at [[level "+(+found[0]+1)+"]].\n\n";
+                else
+                    res += "unlocked with [[bp: "+item.title+"]].\n\n";
 			else
 				res += "unlocks at ''please edit this page''.\n\n";
 			
@@ -85,6 +88,11 @@ let catSort = ["misc", "tool", "build", "weap", "rare"];
 			res += "== building ==\n\n";
 			res += "'''description''': "+item.build_desc+"\n\n";
 		}
+
+        if(item.is_bp) {
+            res += "== blueprint ==\n\n";
+            res += "learn to unlock the recipe for [["+item.bp_for+"]].\n\n";
+        }
 		
 		res += "== stats ==\n\n";
 		res += "'''weight''': "+item.weight+" units\n\n";
