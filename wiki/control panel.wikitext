@@ -1,3 +1,4 @@
+{{FixTitle}}
 An [[items|item]]. Icon: <code><nowiki>&lt;&gt;</nowiki></code>.
 
 == description ==

@@ -41,7 +41,7 @@ let catSort = ["misc", "tool", "build", "weap", "rare", "bp"];
 		await fs.writeFile(resDir + "_Items" + ".wikitext", res.trim(), "utf-8");
 	}
 	for(let item of allItems) {
-		let res = "";
+		let res = "{{FixTitle}}\n";
 		
 		res += "An [[items|item]]. Icon: "+icon(item)+".\n\n";
 		res += "== description ==\n\n";
