@@ -9,6 +9,27 @@ a few shards of metal. probably can be bent into useful shapes.
 
 ''please edit this section''
 
+== used in crafting ==
+
+* [[powered blowtorch]]
+* [[bolt cutters]]
+* [[charged core]]
+* [[control panel]]
+* [[crowbar]]
+* [[large storage unit]]
+* [[low-range personal teleporter]]
+* [[machete]]
+* [[metal detector]]
+* [[low-range rescue scanner]]
+* [[rusty knife]]
+* [[scrap metal fence]]
+* [[shovel]]
+* [[wooden sign]]
+* [[sledgehammer]]
+* [[small storage unit]]
+* [[reinforced steel fence]]
+* [[wooden gate]]
+
 == stats ==
 
 '''weight''': 2 units

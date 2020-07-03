@@ -9,6 +9,14 @@ a charged battery, from a time when energy was unlimited.
 
 ''please edit this section''
 
+== used in crafting ==
+
+* [[powered blowtorch]]
+* [[charged core]]
+* [[metal detector]]
+* [[low-range rescue scanner]]
+* [[personal reality anchor]]
+
 == stats ==
 
 '''weight''': 4 units

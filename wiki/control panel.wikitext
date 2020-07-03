@@ -16,6 +16,13 @@ unlocks at [[level 20]].
 * 2 [[copper coil]]
 * 75 seconds
 
+== used in crafting ==
+
+* [[low-range personal teleporter]]
+* [[low-range rescue scanner]]
+* [[personal reality anchor]]
+* [[steel gate]]
+
 == stats ==
 
 '''weight''': 5 units

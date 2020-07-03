@@ -38,7 +38,6 @@ let catSort = ["misc", "tool", "build", "weap", "rare", "bp"];
             data.supplies[suplname] = value;
         }
     }
-    console.log(data);
     
     await fs.mkdir(resDir, { recursive: true });
 
@@ -54,6 +53,17 @@ let catSort = ["misc", "tool", "build", "weap", "rare", "bp"];
             allItems.push(item);
         }
     }
+    
+    let usedInCrafting = {};
+    for(let item of allItems) {
+        if(item.craft) {
+            for(let [name, data] of Object.entries(item.craft_data)) {
+                if(!usedInCrafting[name]) usedInCrafting[name] = new Set();
+                usedInCrafting[name].add(item.name);
+            }
+        }
+    }
+    
     let itemNames = {};
     {
         let res = "";
@@ -134,6 +144,14 @@ let catSort = ["misc", "tool", "build", "weap", "rare", "bp"];
             res += "== blueprint ==\n\n";
             res +=
                 "learn to unlock the recipe for [[" + itemNames[item.bp_for] + "]].\n\n";
+        }
+        
+        if(usedInCrafting[item.name]) {
+            res += "== used in crafting ==\n\n";
+            for(let name of [...usedInCrafting[item.name]].sort()) {
+                res += "* [["+itemNames[name]+"]]\n"
+            }
+            res += "\n";
         }
 
         res += "== stats ==\n\n";

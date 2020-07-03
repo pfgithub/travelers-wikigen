@@ -27,6 +27,10 @@ a delicate device that can teleport you 10km in any direction, if the current lo
 
 {{Button|teleport west}}: ''if you know what this does, please provide a detailed description here''
 
+== used in crafting ==
+
+* [[high-range personal teleporter]]
+
 == stats ==
 
 '''weight''': 20 units

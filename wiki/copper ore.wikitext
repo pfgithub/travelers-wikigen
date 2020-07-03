@@ -9,6 +9,10 @@ contains pure copper.
 
 ''please edit this section''
 
+== used in crafting ==
+
+* [[copper coil]]
+
 == stats ==
 
 '''weight''': 6 units

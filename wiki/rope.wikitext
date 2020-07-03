@@ -9,6 +9,13 @@ a small section of rope, its ends frayed.
 
 ''please edit this section''
 
+== used in crafting ==
+
+* [[bolt cutters]]
+* [[large storage unit]]
+* [[small storage unit]]
+* [[wooden gate]]
+
 == stats ==
 
 '''weight''': 3 units

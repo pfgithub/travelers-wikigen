@@ -16,6 +16,10 @@ unlocks at [[level 10]].
 
 '''description''': a kilometer of wooden fencing. it can't be walked over, but it's fairly easy to break through.
 
+== used in crafting ==
+
+* [[wooden gate]]
+
 == stats ==
 
 '''weight''': 20 units

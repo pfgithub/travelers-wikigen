@@ -9,6 +9,11 @@ tattered and partially rotted fabric, but combined with others like it, could st
 
 ''please edit this section''
 
+== used in crafting ==
+
+* [[active camouflage]]
+* [[wire]]
+
 == stats ==
 
 '''weight''': 1 units

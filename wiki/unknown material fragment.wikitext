@@ -9,6 +9,11 @@ a heavy, spherical material that mostly resembles stone, but it glows bright pur
 
 ''please edit this section''
 
+== used in crafting ==
+
+* [[high-range personal teleporter]]
+* [[personal reality anchor]]
+
 == stats ==
 
 '''weight''': 10 units

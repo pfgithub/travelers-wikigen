@@ -19,6 +19,10 @@ unlocks at [[level 35]].
 
 '''when equipped''': scans for intelligent life within a square radius of 30 kilometers, and beeps with volume proportional to the distance of the closest lifeform.
 
+== used in crafting ==
+
+* [[high-range rescue scanner]]
+
 == stats ==
 
 '''weight''': 15 units

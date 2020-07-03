@@ -13,6 +13,18 @@ unlocks at [[level 10]].
 * 1 [[cloth]]
 * 8 seconds
 
+== used in crafting ==
+
+* [[powered blowtorch]]
+* [[active camouflage]]
+* [[charged core]]
+* [[control panel]]
+* [[high-range personal teleporter]]
+* [[low-range personal teleporter]]
+* [[metal detector]]
+* [[low-range rescue scanner]]
+* [[high-range rescue scanner]]
+
 == stats ==
 
 '''weight''': 1 units

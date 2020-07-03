@@ -18,6 +18,10 @@ unlocks at [[level 30]].
 
 '''description''': a kilometer of reinforced steel fencing. it can't be walked over, and takes a lot of time to break through.
 
+== used in crafting ==
+
+* [[steel gate]]
+
 == stats ==
 
 '''weight''': 50 units

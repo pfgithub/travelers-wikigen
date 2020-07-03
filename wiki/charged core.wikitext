@@ -16,6 +16,12 @@ unlocks at [[level 35]].
 * 1 [[copper coil]]
 * 500 seconds
 
+== used in crafting ==
+
+* [[high-range personal teleporter]]
+* [[low-range personal teleporter]]
+* [[high-range rescue scanner]]
+
 == stats ==
 
 '''weight''': 15 units

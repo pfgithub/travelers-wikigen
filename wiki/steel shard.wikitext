@@ -9,6 +9,19 @@ high quality steel that seems to have been ripped off some old machine.
 
 ''please edit this section''
 
+== used in crafting ==
+
+* [[axe]]
+* [[baseball bat]]
+* [[small boat]]
+* [[bolt cutters]]
+* [[crowbar]]
+* [[large storage unit]]
+* [[machete]]
+* [[scrap metal gate]]
+* [[sledgehammer]]
+* [[reinforced steel fence]]
+
 == stats ==
 
 '''weight''': 5 units

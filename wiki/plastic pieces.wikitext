@@ -9,6 +9,14 @@ some different kinds of plastic, molded together.
 
 ''please edit this section''
 
+== used in crafting ==
+
+* [[powered blowtorch]]
+* [[small boat]]
+* [[control panel]]
+* [[high-range rescue scanner]]
+* [[small storage unit]]
+
 == stats ==
 
 '''weight''': 2 units

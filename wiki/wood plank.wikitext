@@ -9,6 +9,21 @@ a plank of old wood. versatile and cheap.
 
 ''please edit this section''
 
+== used in crafting ==
+
+* [[axe]]
+* [[baseball bat]]
+* [[small boat]]
+* [[large storage unit]]
+* [[machete]]
+* [[rusty knife]]
+* [[scrap metal fence]]
+* [[shovel]]
+* [[wooden sign]]
+* [[small storage unit]]
+* [[reinforced steel fence]]
+* [[wooden fence]]
+
 == stats ==
 
 '''weight''': 1 units
