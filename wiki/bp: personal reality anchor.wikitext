@@ -1,0 +1,18 @@
+{{FixTitle}}
+An [[items|item]]. Icon: <code><nowiki>[]</nowiki></code>.
+
+== description ==
+
+a blueprint for a device that can anchor ones life force to a specific location. it specifies use of an unknown material.
+
+== finding ==
+
+''please edit this section''
+
+== blueprint ==
+
+learn to unlock the recipe for [[personal reality anchor]].
+
+== stats ==
+
+'''weight''': 1 units

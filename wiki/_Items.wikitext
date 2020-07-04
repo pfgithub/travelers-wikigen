@@ -119,3 +119,5 @@
 <code><nowiki>[]</nowiki></code> [[bp: low-range personal teleporter]]
 
 <code><nowiki>[]</nowiki></code> [[bp: metal detector]]
+
+<code><nowiki>[]</nowiki></code> [[bp: personal reality anchor]]
