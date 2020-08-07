@@ -20,3 +20,5 @@ a charged battery, from a time when energy was unlimited.
 == stats ==
 
 '''weight''': 4 units
+
+'''internal name''': battery

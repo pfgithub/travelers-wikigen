@@ -21,3 +21,5 @@ unlocks at [[level 30]].
 == stats ==
 
 '''weight''': 35 units
+
+'''internal name''': steel_door

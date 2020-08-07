@@ -20,3 +20,5 @@ old and broken, but its electric components can still be used.
 == stats ==
 
 '''weight''': 2 units
+
+'''internal name''': circuit_board

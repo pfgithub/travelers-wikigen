@@ -34,3 +34,5 @@ a delicate device that can teleport you 10km in any direction, if the current lo
 == stats ==
 
 '''weight''': 20 units
+
+'''internal name''': low_teleporter

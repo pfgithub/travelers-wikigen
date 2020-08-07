@@ -21,3 +21,5 @@ unlocked with [[bp: personal reality anchor]].
 == stats ==
 
 '''weight''': 13 units
+
+'''internal name''': reality_anchor

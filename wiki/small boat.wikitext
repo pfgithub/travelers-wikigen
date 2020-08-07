@@ -21,3 +21,5 @@ unlocked with [[bp: small boat]].
 == stats ==
 
 '''weight''': 40 units
+
+'''internal name''': boat

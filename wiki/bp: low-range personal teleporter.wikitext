@@ -16,3 +16,5 @@ learn to unlock the recipe for [[low-range personal teleporter]].
 == stats ==
 
 '''weight''': 1 units
+
+'''internal name''': bp_low_teleporter

@@ -20,3 +20,5 @@ some different kinds of plastic, molded together.
 == stats ==
 
 '''weight''': 2 units
+
+'''internal name''': plastic

@@ -16,3 +16,5 @@ contains pure copper.
 == stats ==
 
 '''weight''': 6 units
+
+'''internal name''': copper_ore

@@ -12,3 +12,5 @@ a piece of lead wrapped in metal. capable of inflicting moderate damage over a m
 == stats ==
 
 '''weight''': 2 units
+
+'''internal name''': bullet

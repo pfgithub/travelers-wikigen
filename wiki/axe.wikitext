@@ -17,6 +17,8 @@ unlocks at [[level 25]].
 
 '''weight''': 9 units
 
+'''internal name''': axe
+
 '''damage''': +17dmg, -8sp
 
 '''break ratio''': 25

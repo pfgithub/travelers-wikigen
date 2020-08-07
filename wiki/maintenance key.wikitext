@@ -12,3 +12,5 @@ a rusty key.
 == stats ==
 
 '''weight''': 2 units
+
+'''internal name''': maintenance_key

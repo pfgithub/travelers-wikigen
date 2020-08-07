@@ -20,3 +20,5 @@ unlocks at [[level 5]].
 == stats ==
 
 '''weight''': 10 units
+
+'''internal name''': sign_block

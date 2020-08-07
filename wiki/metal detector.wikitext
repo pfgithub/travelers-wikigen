@@ -22,3 +22,5 @@ unlocked with [[bp: metal detector]].
 == stats ==
 
 '''weight''': 15 units
+
+'''internal name''': metal_detector

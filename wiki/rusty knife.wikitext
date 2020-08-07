@@ -17,4 +17,6 @@ unlocks at [[level 1]].
 
 '''weight''': 4 units
 
+'''internal name''': rusty_knife
+
 '''damage''': +9dmg, -7sp

@@ -19,3 +19,5 @@ a small section of rope, its ends frayed.
 == stats ==
 
 '''weight''': 3 units
+
+'''internal name''': rope

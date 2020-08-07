@@ -30,3 +30,5 @@ a heavy device that can teleport you 1000km in any direction, if the current loc
 == stats ==
 
 '''weight''': 35 units
+
+'''internal name''': high_teleporter

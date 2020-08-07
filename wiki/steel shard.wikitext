@@ -25,3 +25,5 @@ high quality steel that seems to have been ripped off some old machine.
 == stats ==
 
 '''weight''': 5 units
+
+'''internal name''': steel_shard

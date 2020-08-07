@@ -13,4 +13,6 @@ a broken glass soda bottle, the faded label of its blue and red logo still promi
 
 '''weight''': 5 units
 
+'''internal name''': soda_bottle
+
 '''damage''': +8dmg, -6sp

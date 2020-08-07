@@ -156,6 +156,7 @@ let catSort = ["misc", "tool", "build", "weap", "rare", "bp"];
 
         res += "== stats ==\n\n";
         res += "'''weight''': " + item.weight + " units\n\n";
+        res += "'''internal name''': " + item.name + "\n\n";
         if (item.weapon)
             res +=
                 "'''damage''': +" +

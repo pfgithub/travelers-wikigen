@@ -27,3 +27,5 @@ a plank of old wood. versatile and cheap.
 == stats ==
 
 '''weight''': 1 units
+
+'''internal name''': wood_stick

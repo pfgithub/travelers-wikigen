@@ -22,3 +22,5 @@ unlocks at [[level 20]].
 == stats ==
 
 '''weight''': 15 units
+
+'''internal name''': small_chest

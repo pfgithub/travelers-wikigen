@@ -17,3 +17,5 @@ unlocks at [[level 10]].
 == stats ==
 
 '''weight''': 7 units
+
+'''internal name''': bolt_cutters

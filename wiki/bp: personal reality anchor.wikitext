@@ -16,3 +16,5 @@ learn to unlock the recipe for [[personal reality anchor]].
 == stats ==
 
 '''weight''': 1 units
+
+'''internal name''': bp_reality_anchor

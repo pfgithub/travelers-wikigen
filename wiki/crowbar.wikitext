@@ -16,3 +16,5 @@ unlocks at [[level 1]].
 == stats ==
 
 '''weight''': 6 units
+
+'''internal name''': crowbar

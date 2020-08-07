@@ -25,3 +25,5 @@ unlocks at [[level 35]].
 == stats ==
 
 '''weight''': 15 units
+
+'''internal name''': charged_core

@@ -22,3 +22,5 @@ unlocks at [[level 25]].
 == stats ==
 
 '''weight''': 25 units
+
+'''internal name''': large_chest

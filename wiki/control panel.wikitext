@@ -26,3 +26,5 @@ unlocks at [[level 20]].
 == stats ==
 
 '''weight''': 5 units
+
+'''internal name''': control_panel

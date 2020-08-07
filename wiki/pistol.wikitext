@@ -12,3 +12,5 @@ a small handgun, rusted but functional, capable of doing moderate damage over a 
 == stats ==
 
 '''weight''': 12 units
+
+'''internal name''': pistol

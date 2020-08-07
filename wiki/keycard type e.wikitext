@@ -12,3 +12,5 @@ it describes itself as a security clearance card, with access limited to "group 
 == stats ==
 
 '''weight''': 1 units
+
+'''internal name''': keycard_e

@@ -18,4 +18,6 @@ unlocks at [[level 20]].
 
 '''weight''': 15 units
 
+'''internal name''': machete
+
 '''damage''': +29dmg, -17sp

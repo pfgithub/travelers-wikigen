@@ -21,3 +21,5 @@ unlocks at [[level 10]].
 == stats ==
 
 '''weight''': 25 units
+
+'''internal name''': wood_door

@@ -17,6 +17,8 @@ unlocks at [[level 30]].
 
 '''weight''': 9 units
 
+'''internal name''': sledgehammer
+
 '''damage''': +22dmg, -16sp
 
 '''break ratio''': 40

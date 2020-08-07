@@ -25,3 +25,5 @@ unlocks at [[level 30]].
 == stats ==
 
 '''weight''': 50 units
+
+'''internal name''': steel_block

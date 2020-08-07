@@ -17,4 +17,6 @@ unlocks at [[level 10]].
 
 '''weight''': 9 units
 
+'''internal name''': baseball_bat
+
 '''damage''': +10dmg, -9sp

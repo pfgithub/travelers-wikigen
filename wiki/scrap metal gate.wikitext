@@ -21,3 +21,5 @@ unlocks at [[level 15]].
 == stats ==
 
 '''weight''': 30 units
+
+'''internal name''': scrap_door

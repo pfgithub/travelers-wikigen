@@ -22,3 +22,5 @@ unlocks at [[level 15]].
 == stats ==
 
 '''weight''': 5 units
+
+'''internal name''': copper_coil

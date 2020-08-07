@@ -25,4 +25,6 @@ a simple shovel, capable of digging a few feet into the ground, or filling in a 
 
 '''weight''': 7 units
 
+'''internal name''': shovel
+
 '''damage''': +21dmg, -20sp

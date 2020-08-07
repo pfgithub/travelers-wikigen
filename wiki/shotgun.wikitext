@@ -12,3 +12,5 @@ a pump-action shotgun, strong and sturdy, capable of dealing heavy damage over a
 == stats ==
 
 '''weight''': 22 units
+
+'''internal name''': shotgun

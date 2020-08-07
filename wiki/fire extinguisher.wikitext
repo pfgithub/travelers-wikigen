@@ -13,4 +13,6 @@ an empty metal can, once capable of saving lives, is now used to inflict pain.
 
 '''weight''': 11 units
 
+'''internal name''': fire_extinguisher
+
 '''damage''': +11dmg, -11sp

@@ -22,3 +22,5 @@ unlocks at [[level 40]].
 == stats ==
 
 '''weight''': 20 units
+
+'''internal name''': player_scanner_highrange

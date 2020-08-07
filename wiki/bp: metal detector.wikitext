@@ -16,3 +16,5 @@ learn to unlock the recipe for [[metal detector]].
 == stats ==
 
 '''weight''': 1 units
+
+'''internal name''': bp_metal_detector

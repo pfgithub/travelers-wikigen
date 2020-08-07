@@ -12,3 +12,5 @@ a cylinder of plastic containing several tiny metal balls. capable of inflicting
 == stats ==
 
 '''weight''': 3 units
+
+'''internal name''': shotgun_shell

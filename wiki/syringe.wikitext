@@ -12,3 +12,5 @@ intended for injecting liquids into a bloodstream.
 == stats ==
 
 '''weight''': 3 units
+
+'''internal name''': syringe
