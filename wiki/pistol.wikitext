@@ -1,16 +1,14 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>Г</nowiki></code>.
+a [[Items#weapons|weapon]]. TODO.
 
-== description ==
-
-a small handgun, rusted but functional, capable of doing moderate damage over a medium range.
-
-== finding ==
-
-''please edit this section''
-
-== stats ==
-
-'''weight''': 12 units
-
-'''internal name''': pistol
+{{Item|<nowiki>Г</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|pistol
+|a small handgun, rusted but functional, capable of doing moderate damage over a medium range.
+|not craftable
+|weighs 12 units
+|internal name (for bot developers): pistol
+|finding:
+|''please edit this section''
+}}

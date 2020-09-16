@@ -1,25 +1,21 @@
 {{FixTitle}}
-An [[items|item]]. Icon: '''<code><nowiki>D</nowiki></code>'''.
+a [[Items#building materials|building material]]. TODO.
 
-== description ==
-
-a metal gate fashioned from scrapped machinery.
-
-== crafting ==
-
-unlocks at [[level 15]].
-
-* 1 [[scrap metal fence]]
-* 3 [[steel shard]]
-* 1 [[circuit board]]
-* 200 seconds
-
+'''<code>{{Item|D</nowiki>}}'''
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|scrap metal gate
+|a metal gate fashioned from scrapped machinery.
+|takes 200 cycles to craft
+|weighs 30 units
+|internal name (for bot developers): scrap_door
+|crafting recipe: (unlocks at [[level 15]].)
+{{CraftingRecipe
+|1|scrap metal fence
+|3|steel shard
+|1|circuit board
+}}
+}}
 == building ==
 
 '''description''': a metal gate fashioned from scrapped machinery. secured by a passcode mechanism.
-
-== stats ==
-
-'''weight''': 30 units
-
-'''internal name''': scrap_door

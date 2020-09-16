@@ -1,14 +1,17 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>¤</nowiki></code>.
+a [[Items#miscellaneous|miscellaneous item]]. TODO.
 
-== description ==
-
-high quality steel that seems to have been ripped off some old machine.
-
-== finding ==
-
-''please edit this section''
-
+{{Item|<nowiki>¤</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|steel shard
+|high quality steel that seems to have been ripped off some old machine.
+|not craftable
+|weighs 5 units
+|internal name (for bot developers): steel_shard
+|finding:
+|''please edit this section''
+}}
 == used in crafting ==
 
 * [[axe]]
@@ -21,9 +24,3 @@ high quality steel that seems to have been ripped off some old machine.
 * [[scrap metal gate]]
 * [[sledgehammer]]
 * [[reinforced steel fence]]
-
-== stats ==
-
-'''weight''': 5 units
-
-'''internal name''': steel_shard

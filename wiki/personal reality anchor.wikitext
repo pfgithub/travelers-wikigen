@@ -1,25 +1,21 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>┬</nowiki></code>.
+a [[Items#building materials|building material]]. TODO.
 
-== description ==
-
-anchors the user's reality to a specific location. upon death, the user will reincarnate wherever their anchor was placed.
-
-== crafting ==
-
-unlocked with [[bp: personal reality anchor]].
-
-* 1 [[control panel]]
-* 1 [[energy cell]]
-* 1 [[unknown material fragment]]
-* 250 seconds
-
+{{Item|<nowiki>┬</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|personal reality anchor
+|anchors the user's reality to a specific location. upon death, the user will reincarnate wherever their anchor was placed.
+|takes 250 cycles to craft
+|weighs 13 units
+|internal name (for bot developers): reality_anchor
+|crafting recipe: (unlocked with [[bp: personal reality anchor]].)
+{{CraftingRecipe
+|1|control panel
+|1|energy cell
+|1|unknown material fragment
+}}
+}}
 == building ==
 
 '''description''': place the anchor on the ground and it will activate automatically. if you craft a new anchor and place it somewhere else, you will reincarnate there and previously placed anchors will be forgotten. if your anchor ends up blocked off, such that there is no safe location to reincarnate next to it, the anchor will be forgotten. once the anchor is placed, it will permanently stay at that location until destroyed. it cannot be picked up and used again.
-
-== stats ==
-
-'''weight''': 13 units
-
-'''internal name''': reality_anchor

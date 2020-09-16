@@ -1,22 +1,18 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>-==</nowiki></code>.
+a [[Items#weapons|weapon]]. TODO.
 
-== description ==
-
-once used for sport, this bat now serves as a blunt weapon.
-
-== crafting ==
-
-unlocks at [[level 10]].
-
-* 5 [[wood plank]]
-* 3 [[steel shard]]
-* 30 seconds
-
-== stats ==
-
-'''weight''': 9 units
-
-'''internal name''': baseball_bat
-
-'''damage''': +10dmg, -9sp
+{{Item|<nowiki>-==</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|baseball bat
+|once used for sport, this bat now serves as a blunt weapon.
+|takes 30 cycles to craft
+|weighs 9 units
+|internal name (for bot developers): baseball_bat
+|damage: +10dmg, -9sp
+|crafting recipe: (unlocks at [[level 10]].)
+{{CraftingRecipe
+|5|wood plank
+|3|steel shard
+}}
+}}

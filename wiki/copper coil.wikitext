@@ -1,26 +1,22 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>§</nowiki></code>.
+a [[Items#miscellaneous|miscellaneous item]]. TODO.
 
-== description ==
-
-hard and exposed copper wire, coiled around a plastic spool.
-
-== crafting ==
-
-unlocks at [[level 15]].
-
-* 2 [[copper ore]]
-* 25 seconds
-
+{{Item|<nowiki>§</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|copper coil
+|hard and exposed copper wire, coiled around a plastic spool.
+|takes 25 cycles to craft
+|weighs 5 units
+|internal name (for bot developers): copper_coil
+|crafting recipe: (unlocks at [[level 15]].)
+{{CraftingRecipe
+|2|copper ore
+}}
+}}
 == used in crafting ==
 
 * [[charged core]]
 * [[control panel]]
 * [[steel gate]]
 * [[wire]]
-
-== stats ==
-
-'''weight''': 5 units
-
-'''internal name''': copper_coil

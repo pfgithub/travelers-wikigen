@@ -1,21 +1,18 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>O</nowiki></code>.
+a [[Items#rare item|rare item]]. TODO.
 
-== description ==
-
-a heavy, spherical material that mostly resembles stone, but it glows bright purple, its hue shifting slightly when viewed from different angles. its surface, where not cracked, is extremely smooth, and it has a unique scent.
-
-== finding ==
-
-''please edit this section''
-
+{{Item|<nowiki>O</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|unknown material fragment
+|a heavy, spherical material that mostly resembles stone, but it glows bright purple, its hue shifting slightly when viewed from different angles. its surface, where not cracked, is extremely smooth, and it has a unique scent.
+|not craftable
+|weighs 10 units
+|internal name (for bot developers): alien_fragment
+|finding:
+|''please edit this section''
+}}
 == used in crafting ==
 
 * [[high-range personal teleporter]]
 * [[personal reality anchor]]
-
-== stats ==
-
-'''weight''': 10 units
-
-'''internal name''': alien_fragment

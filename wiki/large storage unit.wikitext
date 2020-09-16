@@ -1,26 +1,22 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>▭</nowiki></code>.
+a [[Items#building materials|building material]]. TODO.
 
-== description ==
-
-a large structure capable of holding a huge amount of items.
-
-== crafting ==
-
-unlocks at [[level 25]].
-
-* 10 [[steel shard]]
-* 15 [[scrap metal]]
-* 25 [[wood plank]]
-* 4 [[rope]]
-* 150 seconds
-
+{{Item|<nowiki>▭</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|large storage unit
+|a large structure capable of holding a huge amount of items.
+|takes 150 cycles to craft
+|weighs 25 units
+|internal name (for bot developers): large_chest
+|crafting recipe: (unlocks at [[level 25]].)
+{{CraftingRecipe
+|10|steel shard
+|15|scrap metal
+|25|wood plank
+|4|rope
+}}
+}}
 == building ==
 
 '''description''': a small structure capable of holding a lot of items.
-
-== stats ==
-
-'''weight''': 25 units
-
-'''internal name''': large_chest

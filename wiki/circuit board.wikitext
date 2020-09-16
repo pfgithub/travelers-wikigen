@@ -1,14 +1,17 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>▓</nowiki></code>.
+a [[Items#miscellaneous|miscellaneous item]]. TODO.
 
-== description ==
-
-old and broken, but its electric components can still be used.
-
-== finding ==
-
-''please edit this section''
-
+{{Item|<nowiki>▓</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|circuit board
+|old and broken, but its electric components can still be used.
+|not craftable
+|weighs 2 units
+|internal name (for bot developers): circuit_board
+|finding:
+|''please edit this section''
+}}
 == used in crafting ==
 
 * [[active camouflage]]
@@ -16,9 +19,3 @@ old and broken, but its electric components can still be used.
 * [[control panel]]
 * [[metal detector]]
 * [[scrap metal gate]]
-
-== stats ==
-
-'''weight''': 2 units
-
-'''internal name''': circuit_board

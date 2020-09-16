@@ -1,123 +1,123 @@
-== Miscellaneous ==
+== miscellaneous ==
 
-<code><nowiki>·</nowiki></code> [[bullet]]
+{{Item|<nowiki>·</nowiki>}} [[bullet]]
 
-<code><nowiki>▓</nowiki></code> [[circuit board]]
+{{Item|<nowiki>▓</nowiki>}} [[circuit board]]
 
-<code><nowiki>c</nowiki></code> [[cloth]]
+{{Item|<nowiki>c</nowiki>}} [[cloth]]
 
-<code><nowiki>&lt;&gt;</nowiki></code> [[control panel]]
+{{Item|<nowiki>&lt;&gt;</nowiki>}} [[control panel]]
 
-<code><nowiki>§</nowiki></code> [[copper coil]]
+{{Item|<nowiki>§</nowiki>}} [[copper coil]]
 
-<code><nowiki>&lt;c</nowiki></code> [[copper ore]]
+{{Item|<nowiki>&lt;c</nowiki>}} [[copper ore]]
 
-<code><nowiki>o</nowiki></code> [[energy cell]]
+{{Item|<nowiki>o</nowiki>}} [[energy cell]]
 
-<code><nowiki>K-v</nowiki></code> [[maintenance key]]
+{{Item|<nowiki>K-v</nowiki>}} [[maintenance key]]
 
-<code><nowiki>ß</nowiki></code> [[plastic pieces]]
+{{Item|<nowiki>ß</nowiki>}} [[plastic pieces]]
 
-<code><nowiki>~</nowiki></code> [[rope]]
+{{Item|<nowiki>~</nowiki>}} [[rope]]
 
-<code><nowiki>ð</nowiki></code> [[scrap metal]]
+{{Item|<nowiki>ð</nowiki>}} [[scrap metal]]
 
-'''<code><nowiki>-</nowiki></code>''' [[shotgun shell]]
+'''<code>{{Item|-</nowiki>}}''' [[shotgun shell]]
 
-<code><nowiki>¤</nowiki></code> [[steel shard]]
+{{Item|<nowiki>¤</nowiki>}} [[steel shard]]
 
-<code><nowiki>=-</nowiki></code> [[syringe]]
+{{Item|<nowiki>=-</nowiki>}} [[syringe]]
 
-<code><nowiki>s</nowiki></code> [[wire]]
+{{Item|<nowiki>s</nowiki>}} [[wire]]
 
-<code><nowiki>/</nowiki></code> [[wood plank]]
+{{Item|<nowiki>/</nowiki>}} [[wood plank]]
 
-== Tools ==
+== tools ==
 
-<code><nowiki>%</nowiki></code> [[active camouflage]]
+{{Item|<nowiki>%</nowiki>}} [[active camouflage]]
 
-<code><nowiki>––A</nowiki></code> [[axe]]
+{{Item|<nowiki>––A</nowiki>}} [[axe]]
 
-<code><nowiki>X</nowiki></code> [[bolt cutters]]
+{{Item|<nowiki>X</nowiki>}} [[bolt cutters]]
 
-<code><nowiki>{</nowiki></code> [[crowbar]]
+{{Item|<nowiki>{</nowiki>}} [[crowbar]]
 
-<code><nowiki>(T)</nowiki></code> [[high-range personal teleporter]]
+{{Item|<nowiki>(T)</nowiki>}} [[high-range personal teleporter]]
 
-<code><nowiki>(S)</nowiki></code> [[high-range rescue scanner]]
+{{Item|<nowiki>(S)</nowiki>}} [[high-range rescue scanner]]
 
-<code><nowiki>(t)</nowiki></code> [[low-range personal teleporter]]
+{{Item|<nowiki>(t)</nowiki>}} [[low-range personal teleporter]]
 
-<code><nowiki>(s)</nowiki></code> [[low-range rescue scanner]]
+{{Item|<nowiki>(s)</nowiki>}} [[low-range rescue scanner]]
 
-<code><nowiki>¯\_</nowiki></code> [[metal detector]]
+{{Item|<nowiki>¯\_</nowiki>}} [[metal detector]]
 
-<code><nowiki>r=</nowiki></code> [[powered blowtorch]]
+{{Item|<nowiki>r=</nowiki>}} [[powered blowtorch]]
 
-<code><nowiki>––D</nowiki></code> [[shovel]]
+{{Item|<nowiki>––D</nowiki>}} [[shovel]]
 
-<code><nowiki>––0</nowiki></code> [[sledgehammer]]
+{{Item|<nowiki>––0</nowiki>}} [[sledgehammer]]
 
-<code><nowiki>︺</nowiki></code> [[small boat]]
+{{Item|<nowiki>︺</nowiki>}} [[small boat]]
 
-== Building Materials ==
+== building materials ==
 
-<code><nowiki>▭</nowiki></code> [[large storage unit]]
+{{Item|<nowiki>▭</nowiki>}} [[large storage unit]]
 
-<code><nowiki>┬</nowiki></code> [[personal reality anchor]]
+{{Item|<nowiki>┬</nowiki>}} [[personal reality anchor]]
 
-'''<code><nowiki>#</nowiki></code>''' [[reinforced steel fence]]
+'''<code>{{Item|#</nowiki>}}''' [[reinforced steel fence]]
 
-<code><nowiki>#</nowiki></code> [[scrap metal fence]]
+{{Item|<nowiki>#</nowiki>}} [[scrap metal fence]]
 
-'''<code><nowiki>D</nowiki></code>''' [[scrap metal gate]]
+'''<code>{{Item|D</nowiki>}}''' [[scrap metal gate]]
 
-<code><nowiki>◻</nowiki></code> [[small storage unit]]
+{{Item|<nowiki>◻</nowiki>}} [[small storage unit]]
 
-<code><nowiki>$</nowiki></code> [[steel gate]]
+{{Item|<nowiki>$</nowiki>}} [[steel gate]]
 
-<code><nowiki>+</nowiki></code> [[wooden fence]]
+{{Item|<nowiki>+</nowiki>}} [[wooden fence]]
 
-<code><nowiki>D</nowiki></code> [[wooden gate]]
+{{Item|<nowiki>D</nowiki>}} [[wooden gate]]
 
-<code><nowiki>¶</nowiki></code> [[wooden sign]]
+{{Item|<nowiki>¶</nowiki>}} [[wooden sign]]
 
-== Weapons ==
+== weapons ==
 
-<code><nowiki>-==</nowiki></code> [[baseball bat]]
+{{Item|<nowiki>-==</nowiki>}} [[baseball bat]]
 
-<code><nowiki>{,</nowiki></code> [[broken soda bottle]]
+{{Item|<nowiki>{,</nowiki>}} [[broken soda bottle]]
 
-<code><nowiki>Û</nowiki></code> [[fire extinguisher]]
+{{Item|<nowiki>Û</nowiki>}} [[fire extinguisher]]
 
-<code><nowiki>!</nowiki></code> [[machete]]
+{{Item|<nowiki>!</nowiki>}} [[machete]]
 
-<code><nowiki>Г</nowiki></code> [[pistol]]
+{{Item|<nowiki>Г</nowiki>}} [[pistol]]
 
-<code><nowiki>4</nowiki></code> [[rusty knife]]
+{{Item|<nowiki>4</nowiki>}} [[rusty knife]]
 
-<code><nowiki>~==</nowiki></code> [[shotgun]]
+{{Item|<nowiki>~==</nowiki>}} [[shotgun]]
 
-== Rare Items ==
+== rare items ==
 
-<code><nowiki>@</nowiki></code> [[charged core]]
+{{Item|<nowiki>@</nowiki>}} [[charged core]]
 
-<code><nowiki>[a]</nowiki></code> [[keycard type a]]
+{{Item|<nowiki>[a]</nowiki>}} [[keycard type a]]
 
-<code><nowiki>[b]</nowiki></code> [[keycard type b]]
+{{Item|<nowiki>[b]</nowiki>}} [[keycard type b]]
 
-<code><nowiki>[c]</nowiki></code> [[keycard type c]]
+{{Item|<nowiki>[c]</nowiki>}} [[keycard type c]]
 
-<code><nowiki>[d]</nowiki></code> [[keycard type d]]
+{{Item|<nowiki>[d]</nowiki>}} [[keycard type d]]
 
-<code><nowiki>[e]</nowiki></code> [[keycard type e]]
+{{Item|<nowiki>[e]</nowiki>}} [[keycard type e]]
 
-<code><nowiki>O</nowiki></code> [[unknown material fragment]]
+{{Item|<nowiki>O</nowiki>}} [[unknown material fragment]]
 
-== Blueprints ==
+== blueprints ==
 
-<code><nowiki>[]</nowiki></code> [[bp: low-range personal teleporter]]
+{{Item|<nowiki>[]</nowiki>}} [[bp: low-range personal teleporter]]
 
-<code><nowiki>[]</nowiki></code> [[bp: metal detector]]
+{{Item|<nowiki>[]</nowiki>}} [[bp: metal detector]]
 
-<code><nowiki>[]</nowiki></code> [[bp: personal reality anchor]]
+{{Item|<nowiki>[]</nowiki>}} [[bp: personal reality anchor]]

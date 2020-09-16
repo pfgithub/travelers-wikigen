@@ -1,18 +1,21 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>––D</nowiki></code>.
+a [[Items#tools|tool]]. TODO.
 
-== description ==
-
-digs holes. could also be used as a weapon in a pinch.
-
-== crafting ==
-
-unlocks at [[level 5]].
-
-* 1 [[wood plank]]
-* 3 [[scrap metal]]
-* 20 seconds
-
+{{Item|<nowiki>––D</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|shovel
+|digs holes. could also be used as a weapon in a pinch.
+|takes 20 cycles to craft
+|weighs 7 units
+|internal name (for bot developers): shovel
+|damage: +21dmg, -20sp
+|crafting recipe: (unlocks at [[level 5]].)
+{{CraftingRecipe
+|1|wood plank
+|3|scrap metal
+}}
+}}
 == actions ==
 
 a simple shovel, capable of digging a few feet into the ground, or filling in a hole.
@@ -20,11 +23,3 @@ a simple shovel, capable of digging a few feet into the ground, or filling in a 
 {{Button|dig}}: ''if you know what this does, please provide a detailed description here''
 
 {{Button|fill}}: ''if you know what this does, please provide a detailed description here''
-
-== stats ==
-
-'''weight''': 7 units
-
-'''internal name''': shovel
-
-'''damage''': +21dmg, -20sp

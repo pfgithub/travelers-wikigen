@@ -1,20 +1,17 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>[]</nowiki></code>.
+a [[Items#blueprints|blueprint]]. TODO.
 
-== description ==
-
-a blueprint for the creation of a device that can detect materials underground.
-
-== finding ==
-
-''please edit this section''
-
+{{Item|<nowiki>[]</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|bp: metal detector
+|a blueprint for the creation of a device that can detect materials underground.
+|not craftable
+|weighs 1 units
+|internal name (for bot developers): bp_metal_detector
+|finding:
+|''please edit this section''
+}}
 == blueprint ==
 
 learn to unlock the recipe for [[metal detector]].
-
-== stats ==
-
-'''weight''': 1 units
-
-'''internal name''': bp_metal_detector

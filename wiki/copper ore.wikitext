@@ -1,20 +1,17 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>&lt;c</nowiki></code>.
+a [[Items#miscellaneous|miscellaneous item]]. TODO.
 
-== description ==
-
-contains pure copper.
-
-== finding ==
-
-''please edit this section''
-
+{{Item|<nowiki>&lt;c</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|copper ore
+|contains pure copper.
+|not craftable
+|weighs 6 units
+|internal name (for bot developers): copper_ore
+|finding:
+|''please edit this section''
+}}
 == used in crafting ==
 
 * [[copper coil]]
-
-== stats ==
-
-'''weight''': 6 units
-
-'''internal name''': copper_ore

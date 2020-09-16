@@ -1,17 +1,19 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>+</nowiki></code>.
+a [[Items#building materials|building material]]. TODO.
 
-== description ==
-
-a kilometer's worth of wooden fencing.
-
-== crafting ==
-
-unlocks at [[level 10]].
-
-* 30 [[wood plank]]
-* 90 seconds
-
+{{Item|<nowiki>+</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|wooden fence
+|a kilometer's worth of wooden fencing.
+|takes 90 cycles to craft
+|weighs 20 units
+|internal name (for bot developers): wood_block
+|crafting recipe: (unlocks at [[level 10]].)
+{{CraftingRecipe
+|30|wood plank
+}}
+}}
 == building ==
 
 '''description''': a kilometer of wooden fencing. it can't be walked over, but it's fairly easy to break through.
@@ -19,9 +21,3 @@ unlocks at [[level 10]].
 == used in crafting ==
 
 * [[wooden gate]]
-
-== stats ==
-
-'''weight''': 20 units
-
-'''internal name''': wood_block

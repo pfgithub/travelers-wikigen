@@ -1,18 +1,20 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>s</nowiki></code>.
+a [[Items#miscellaneous|miscellaneous item]]. TODO.
 
-== description ==
-
-a line of copper wrapped in an insulator to carry electricity.
-
-== crafting ==
-
-unlocks at [[level 10]].
-
-* 1 [[copper coil]]
-* 1 [[cloth]]
-* 8 seconds
-
+{{Item|<nowiki>s</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|wire
+|a line of copper wrapped in an insulator to carry electricity.
+|takes 8 cycles to craft
+|weighs 1 units
+|internal name (for bot developers): wire
+|crafting recipe: (unlocks at [[level 10]].)
+{{CraftingRecipe
+|1|copper coil
+|1|cloth
+}}
+}}
 == used in crafting ==
 
 * [[powered blowtorch]]
@@ -24,9 +26,3 @@ unlocks at [[level 10]].
 * [[metal detector]]
 * [[low-range rescue scanner]]
 * [[high-range rescue scanner]]
-
-== stats ==
-
-'''weight''': 1 units
-
-'''internal name''': wire

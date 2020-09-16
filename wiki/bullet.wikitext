@@ -1,16 +1,14 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>·</nowiki></code>.
+a [[Items#miscellaneous|miscellaneous item]]. TODO.
 
-== description ==
-
-a piece of lead wrapped in metal. capable of inflicting moderate damage over a medium range.
-
-== finding ==
-
-''please edit this section''
-
-== stats ==
-
-'''weight''': 2 units
-
-'''internal name''': bullet
+{{Item|<nowiki>·</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|bullet
+|a piece of lead wrapped in metal. capable of inflicting moderate damage over a medium range.
+|not craftable
+|weighs 2 units
+|internal name (for bot developers): bullet
+|finding:
+|''please edit this section''
+}}

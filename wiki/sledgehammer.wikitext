@@ -1,24 +1,19 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>––0</nowiki></code>.
+a [[Items#tools|tool]]. TODO.
 
-== description ==
-
-a heavy hammer, capable of quick destruction.
-
-== crafting ==
-
-unlocks at [[level 30]].
-
-* 5 [[scrap metal]]
-* 8 [[steel shard]]
-* 25 seconds
-
-== stats ==
-
-'''weight''': 9 units
-
-'''internal name''': sledgehammer
-
-'''damage''': +22dmg, -16sp
-
-'''break ratio''': 40
+{{Item|<nowiki>––0</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|sledgehammer
+|a heavy hammer, capable of quick destruction.
+|takes 25 cycles to craft
+|weighs 9 units
+|internal name (for bot developers): sledgehammer
+|damage: +22dmg, -16sp
+|break ratio: 40
+|crafting recipe: (unlocks at [[level 30]].)
+{{CraftingRecipe
+|5|scrap metal
+|8|steel shard
+}}
+}}

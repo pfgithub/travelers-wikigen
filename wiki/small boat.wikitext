@@ -1,25 +1,23 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>︺</nowiki></code>.
+a [[Items#tools|tool]]. TODO.
 
-== description ==
-
-capable of floating in water, and durable enough to resist acidic corrosion. it's barely large enough for one person.
-
-== crafting ==
-
-unlocked with [[bp: small boat]].
-
-* 15 [[wood plank]]
-* 25 [[plastic pieces]]
-* 5 [[steel shard]]
-* 100 seconds
-
-== action ==
-
-'''when equipped''': will allow safe travel over acidic waters. do not unequip unless you are in a safe location.
-
-== stats ==
-
-'''weight''': 40 units
-
-'''internal name''': boat
+{{Item|<nowiki>︺</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|small boat
+|capable of floating in water, and durable enough to resist acidic corrosion. it's barely large enough for one person.
+|takes 100 cycles to craft
+|weighs 40 units
+|internal name (for bot developers): boat
+|crafting recipe: (unlocked with [[bp: small boat]].)
+{{CraftingRecipe
+|15|wood plank
+|25|plastic pieces
+|5|steel shard
+}}
+}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Equip
+|when equipped:
+|will allow safe travel over acidic waters. do not unequip unless you are in a safe location.
+}}

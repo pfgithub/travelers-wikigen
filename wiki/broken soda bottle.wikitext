@@ -1,18 +1,15 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>{,</nowiki></code>.
+a [[Items#weapons|weapon]]. TODO.
 
-== description ==
-
-a broken glass soda bottle, the faded label of its blue and red logo still prominent.
-
-== finding ==
-
-''please edit this section''
-
-== stats ==
-
-'''weight''': 5 units
-
-'''internal name''': soda_bottle
-
-'''damage''': +8dmg, -6sp
+{{Item|<nowiki>{,</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|broken soda bottle
+|a broken glass soda bottle, the faded label of its blue and red logo still prominent.
+|not craftable
+|weighs 5 units
+|internal name (for bot developers): soda_bottle
+|damage: +8dmg, -6sp
+|finding:
+|''please edit this section''
+}}

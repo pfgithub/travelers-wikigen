@@ -1,20 +1,17 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>[]</nowiki></code>.
+a [[Items#blueprints|blueprint]]. TODO.
 
-== description ==
-
-a blueprint for the creation of a device that can teleport you short distances.
-
-== finding ==
-
-''please edit this section''
-
+{{Item|<nowiki>[]</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|bp: low-range personal teleporter
+|a blueprint for the creation of a device that can teleport you short distances.
+|not craftable
+|weighs 1 units
+|internal name (for bot developers): bp_low_teleporter
+|finding:
+|''please edit this section''
+}}
 == blueprint ==
 
 learn to unlock the recipe for [[low-range personal teleporter]].
-
-== stats ==
-
-'''weight''': 1 units
-
-'''internal name''': bp_low_teleporter

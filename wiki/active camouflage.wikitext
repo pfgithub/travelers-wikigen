@@ -1,25 +1,23 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>%</nowiki></code>.
+a [[Items#tools|tool]]. TODO.
 
-== description ==
-
-when laying to rest, the user becomes very difficult to see, only visible within a range of 5 kilometers.
-
-== crafting ==
-
-unlocks at [[level 15]].
-
-* 1 [[circuit board]]
-* 5 [[wire]]
-* 20 [[cloth]]
-* 35 seconds
-
-== action ==
-
-'''when equipped''': the areas concealed by the suit become invisible when worn. while your head and hands still stick out when standing, you are very difficult to see when asleep, only visible up to 5km away.
-
-== stats ==
-
-'''weight''': 5 units
-
-'''internal name''': camo
+{{Item|<nowiki>%</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|active camouflage
+|when laying to rest, the user becomes very difficult to see, only visible within a range of 5 kilometers.
+|takes 35 cycles to craft
+|weighs 5 units
+|internal name (for bot developers): camo
+|crafting recipe: (unlocks at [[level 15]].)
+{{CraftingRecipe
+|1|circuit board
+|5|wire
+|20|cloth
+}}
+}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Equip
+|when equipped:
+|the areas concealed by the suit become invisible when worn. while your head and hands still stick out when standing, you are very difficult to see when asleep, only visible up to 5km away.
+}}

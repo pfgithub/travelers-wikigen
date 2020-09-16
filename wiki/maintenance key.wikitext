@@ -1,16 +1,14 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>K-v</nowiki></code>.
+a [[Items#miscellaneous|miscellaneous item]]. TODO.
 
-== description ==
-
-a rusty key.
-
-== finding ==
-
-''please edit this section''
-
-== stats ==
-
-'''weight''': 2 units
-
-'''internal name''': maintenance_key
+{{Item|<nowiki>K-v</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|maintenance key
+|a rusty key.
+|not craftable
+|weighs 2 units
+|internal name (for bot developers): maintenance_key
+|finding:
+|''please edit this section''
+}}

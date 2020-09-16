@@ -7,22 +7,24 @@ const resDir = __dirname + "/" + "wiki/";
 let icon = item => {
     if (item.icon.startsWith("<b>") && item.icon.endsWith("</b>"))
         return (
-            "'''<code><nowiki>" +
+            "'''<code>{{Item|" +
             item.icon.substring(3, item.icon.length - 4) +
-            "</nowiki></code>'''"
+            "</nowiki>}}'''"
         );
-    return "<code><nowiki>" + item.icon + "</nowiki></code>";
+    return "{{Item|<nowiki>" + item.icon + "</nowiki>}}";
 };
 
 let categories = {
-    misc: "Miscellaneous",
-    tool: "Tools",
-    build: "Building Materials",
-    weap: "Weapons",
-    rare: "Rare Items",
-    bp: "Blueprints",
+    misc: ["miscellaneous", "a [[Items#miscellaneous|miscellaneous item]]"],
+    tool: ["tools", "a [[Items#tools|tool]]"],
+    build: ["building materials", "a [[Items#building materials|building material]]"],
+    weap: ["weapons", "a [[Items#weapons|weapon]]"],
+    rare: ["rare items", "a [[Items#rare item|rare item]]"],
+    bp: ["blueprints", "a [[Items#blueprints|blueprint]]"],
 };
 let catSort = ["misc", "tool", "build", "weap", "rare", "bp"];
+
+const ItemDivider = `<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>`;
 
 (async () => {
     let datas = await fs.readdir(__dirname + "/data");
@@ -38,7 +40,7 @@ let catSort = ["misc", "tool", "build", "weap", "rare", "bp"];
             data.supplies[suplname] = value;
         }
     }
-    
+
     await fs.mkdir(resDir, { recursive: true });
 
     let items = Object.values(data.supplies);
@@ -53,7 +55,7 @@ let catSort = ["misc", "tool", "build", "weap", "rare", "bp"];
             allItems.push(item);
         }
     }
-    
+
     let usedInCrafting = {};
     for(let item of allItems) {
         if(item.craft) {
@@ -63,7 +65,7 @@ let catSort = ["misc", "tool", "build", "weap", "rare", "bp"];
             }
         }
     }
-    
+
     let itemNames = {};
     {
         let res = "";
@@ -75,7 +77,7 @@ let catSort = ["misc", "tool", "build", "weap", "rare", "bp"];
         for ([type, items] of Object.entries(types).sort(
             ([a], [b]) => catSort.indexOf(a) - catSort.indexOf(b),
         )) {
-            res += "== " + categories[type] + " ==\n\n";
+            res += "== " + categories[type][0] + " ==\n\n";
             for (let item of items.sort((a, b) =>
                 a.title.localeCompare(b.title),
             )) {
@@ -89,34 +91,57 @@ let catSort = ["misc", "tool", "build", "weap", "rare", "bp"];
             "utf-8",
         );
     }
+    //console.log(allItems.map(itm => "`"+itm.icon+"`" + "=:=" + itm.name + "=:=" + itm.title).join("\n"));
     for (let item of allItems) {
         let res = "{{FixTitle}}\n";
 
-        res += "An [[items|item]]. Icon: " + icon(item) + ".\n\n";
-        res += "== description ==\n\n";
-        res += item.desc + "\n\n";
+        res += categories[item.type][1]+". TODO.\n\n";
+        res += icon(item) + "\n";
+        res += ItemDivider+"\n";
+
+        res += "{{Desc\n";
+        res += "|"+item.title+"\n";
+        res += "|"+item.desc+"\n";
+        if(item.craft)
+            res += "|takes "+item.craft_time+" cycles to craft\n";
+        else
+            res += "|not craftable\n";
+        res += "|weighs "+item.weight+" units\n";
+        res += "|internal name (for bot developers): " + item.name + "\n";
+        if (item.weapon)
+            res +=
+                "|damage: +" +
+                item.weapon_data.dmg +
+                "dmg, -" +
+                item.weapon_data.sp +
+                "sp\n";
+        if (item.breaker)
+            res += "|break ratio: " + item.break_ratio + "\n";
+
 
         if (item.craft) {
-            res += "== crafting ==\n\n";
+            res += "|crafting recipe: (";
             let found = Object.entries(data.craft_items).find(
                 ([lvl, dat]) =>
                     !!dat.find(v => Object.keys(v)[0] === item.name),
             );
             if (found[0])
                 if (+found[0] + 1)
-                    res += "unlocks at [[level " + (+found[0] + 1) + "]].\n\n";
-                else res += "unlocked with [[bp: " + item.title + "]].\n\n";
-            else res += "unlocks at ''please edit this page''.\n\n";
+                    res += "unlocks at [[level " + (+found[0] + 1) + "]].";
+                else res += "unlocked with [[bp: " + item.title + "]].";
+            else res += "unlocks at ''please edit this page''.";
+            res += ")\n{{CraftingRecipe\n";
 
             for (let craft of Object.values(item.craft_data)) {
-                res += "* " + craft.count + " [[" + craft.title + "]]" + "\n";
+                res += "|" + craft.count + "|" + craft.title + "\n";
             }
-            res += "* " + item.craft_time + " seconds\n";
-            res += "\n";
+            res += "}}\n";
         } else {
-            res += "== finding ==\n\n";
-            res += "''please edit this section''\n\n";
+            res += "|finding:\n";
+            res += "|''please edit this section''\n";
         }
+
+        res += "}}\n";
 
         if (item.func) {
             let buttons = Object.entries(item.func_actions || {});
@@ -130,8 +155,11 @@ let catSort = ["misc", "tool", "build", "weap", "rare", "bp"];
                         "}}: ''if you know what this does, please provide a detailed description here''\n\n";
                 }
             } else {
-                res += "== action ==\n\n";
-                res += "'''when equipped''': " + item.func_desc + "\n\n";
+                res += ItemDivider+"\n";
+                res += "{{Equip\n";
+                res += "|when equipped:\n"
+                res += "|"+item.func_desc + "\n";
+                res += "}}\n";
             }
         }
 
@@ -145,7 +173,7 @@ let catSort = ["misc", "tool", "build", "weap", "rare", "bp"];
             res +=
                 "learn to unlock the recipe for [[" + itemNames[item.bp_for] + "]].\n\n";
         }
-        
+
         if(usedInCrafting[item.name]) {
             res += "== used in crafting ==\n\n";
             for(let name of [...usedInCrafting[item.name]].sort()) {
@@ -153,19 +181,6 @@ let catSort = ["misc", "tool", "build", "weap", "rare", "bp"];
             }
             res += "\n";
         }
-
-        res += "== stats ==\n\n";
-        res += "'''weight''': " + item.weight + " units\n\n";
-        res += "'''internal name''': " + item.name + "\n\n";
-        if (item.weapon)
-            res +=
-                "'''damage''': +" +
-                item.weapon_data.dmg +
-                "dmg, -" +
-                item.weapon_data.sp +
-                "sp\n\n";
-        if (item.breaker)
-            res += "'''break ratio''': " + item.break_ratio + "\n\n";
 
         await fs.writeFile(
             resDir + item.title + ".wikitext",

@@ -1,14 +1,17 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>ð</nowiki></code>.
+a [[Items#miscellaneous|miscellaneous item]]. TODO.
 
-== description ==
-
-a few shards of metal. probably can be bent into useful shapes.
-
-== finding ==
-
-''please edit this section''
-
+{{Item|<nowiki>ð</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|scrap metal
+|a few shards of metal. probably can be bent into useful shapes.
+|not craftable
+|weighs 2 units
+|internal name (for bot developers): scrap_metal
+|finding:
+|''please edit this section''
+}}
 == used in crafting ==
 
 * [[powered blowtorch]]
@@ -29,9 +32,3 @@ a few shards of metal. probably can be bent into useful shapes.
 * [[small storage unit]]
 * [[reinforced steel fence]]
 * [[wooden gate]]
-
-== stats ==
-
-'''weight''': 2 units
-
-'''internal name''': scrap_metal

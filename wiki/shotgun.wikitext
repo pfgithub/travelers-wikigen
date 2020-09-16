@@ -1,16 +1,14 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>~==</nowiki></code>.
+a [[Items#weapons|weapon]]. TODO.
 
-== description ==
-
-a pump-action shotgun, strong and sturdy, capable of dealing heavy damage over a short distance with a spray of metal pellets.
-
-== finding ==
-
-''please edit this section''
-
-== stats ==
-
-'''weight''': 22 units
-
-'''internal name''': shotgun
+{{Item|<nowiki>~==</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|shotgun
+|a pump-action shotgun, strong and sturdy, capable of dealing heavy damage over a short distance with a spray of metal pellets.
+|not craftable
+|weighs 22 units
+|internal name (for bot developers): shotgun
+|finding:
+|''please edit this section''
+}}

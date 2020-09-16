@@ -1,26 +1,24 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>(S)</nowiki></code>.
+a [[Items#tools|tool]]. TODO.
 
-== description ==
-
-scans for intelligent life within a square radius of 100 kilometers, and will indicate the approximate direction.
-
-== crafting ==
-
-unlocks at [[level 40]].
-
-* 1 [[low-range rescue scanner]]
-* 1 [[charged core]]
-* 10 [[wire]]
-* 5 [[plastic pieces]]
-* 4000 seconds
-
-== action ==
-
-'''when equipped''': scans for intelligent life within a square radius of 100 kilometers, and will indicate the approximate direction.
-
-== stats ==
-
-'''weight''': 20 units
-
-'''internal name''': player_scanner_highrange
+{{Item|<nowiki>(S)</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|high-range rescue scanner
+|scans for intelligent life within a square radius of 100 kilometers, and will indicate the approximate direction.
+|takes 4000 cycles to craft
+|weighs 20 units
+|internal name (for bot developers): player_scanner_highrange
+|crafting recipe: (unlocks at [[level 40]].)
+{{CraftingRecipe
+|1|low-range rescue scanner
+|1|charged core
+|10|wire
+|5|plastic pieces
+}}
+}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Equip
+|when equipped:
+|scans for intelligent life within a square radius of 100 kilometers, and will indicate the approximate direction.
+}}

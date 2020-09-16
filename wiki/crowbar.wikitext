@@ -1,20 +1,17 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>{</nowiki></code>.
+a [[Items#tools|tool]]. TODO.
 
-== description ==
-
-a long, curved piece of steel, meant for prying things apart.
-
-== crafting ==
-
-unlocks at [[level 1]].
-
-* 2 [[scrap metal]]
-* 5 [[steel shard]]
-* 30 seconds
-
-== stats ==
-
-'''weight''': 6 units
-
-'''internal name''': crowbar
+{{Item|<nowiki>{</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|crowbar
+|a long, curved piece of steel, meant for prying things apart.
+|takes 30 cycles to craft
+|weighs 6 units
+|internal name (for bot developers): crowbar
+|crafting recipe: (unlocks at [[level 1]].)
+{{CraftingRecipe
+|2|scrap metal
+|5|steel shard
+}}
+}}

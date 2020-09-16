@@ -1,22 +1,18 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>4</nowiki></code>.
+a [[Items#weapons|weapon]]. TODO.
 
-== description ==
-
-an old butcher's knife, edge rusted away, but still capable of damage.
-
-== crafting ==
-
-unlocks at [[level 1]].
-
-* 1 [[wood plank]]
-* 2 [[scrap metal]]
-* 15 seconds
-
-== stats ==
-
-'''weight''': 4 units
-
-'''internal name''': rusty_knife
-
-'''damage''': +9dmg, -7sp
+{{Item|<nowiki>4</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|rusty knife
+|an old butcher's knife, edge rusted away, but still capable of damage.
+|takes 15 cycles to craft
+|weighs 4 units
+|internal name (for bot developers): rusty_knife
+|damage: +9dmg, -7sp
+|crafting recipe: (unlocks at [[level 1]].)
+{{CraftingRecipe
+|1|wood plank
+|2|scrap metal
+}}
+}}

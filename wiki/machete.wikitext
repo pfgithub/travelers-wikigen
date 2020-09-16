@@ -1,23 +1,19 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>!</nowiki></code>.
+a [[Items#weapons|weapon]]. TODO.
 
-== description ==
-
-a long and sharp blade, its edge unevenly serrated, capable of heavy damage.
-
-== crafting ==
-
-unlocks at [[level 20]].
-
-* 2 [[wood plank]]
-* 10 [[scrap metal]]
-* 20 [[steel shard]]
-* 65 seconds
-
-== stats ==
-
-'''weight''': 15 units
-
-'''internal name''': machete
-
-'''damage''': +29dmg, -17sp
+{{Item|<nowiki>!</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|machete
+|a long and sharp blade, its edge unevenly serrated, capable of heavy damage.
+|takes 65 cycles to craft
+|weighs 15 units
+|internal name (for bot developers): machete
+|damage: +29dmg, -17sp
+|crafting recipe: (unlocks at [[level 20]].)
+{{CraftingRecipe
+|2|wood plank
+|10|scrap metal
+|20|steel shard
+}}
+}}

@@ -1,20 +1,22 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>(t)</nowiki></code>.
+a [[Items#tools|tool]]. TODO.
 
-== description ==
-
-capable of teleporting 10 kilometers in a cardinal direction. consumes 1 energy cell per teleport.
-
-== crafting ==
-
-unlocked with [[bp: low-range personal teleporter]].
-
-* 1 [[control panel]]
-* 1 [[charged core]]
-* 15 [[wire]]
-* 25 [[scrap metal]]
-* 5000 seconds
-
+{{Item|<nowiki>(t)</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|low-range personal teleporter
+|capable of teleporting 10 kilometers in a cardinal direction. consumes 1 energy cell per teleport.
+|takes 5000 cycles to craft
+|weighs 20 units
+|internal name (for bot developers): low_teleporter
+|crafting recipe: (unlocked with [[bp: low-range personal teleporter]].)
+{{CraftingRecipe
+|1|control panel
+|1|charged core
+|15|wire
+|25|scrap metal
+}}
+}}
 == actions ==
 
 a delicate device that can teleport you 10km in any direction, if the current location or destination do not have too much interference. requires 1 energy cell to engage a teleport.
@@ -30,9 +32,3 @@ a delicate device that can teleport you 10km in any direction, if the current lo
 == used in crafting ==
 
 * [[high-range personal teleporter]]
-
-== stats ==
-
-'''weight''': 20 units
-
-'''internal name''': low_teleporter

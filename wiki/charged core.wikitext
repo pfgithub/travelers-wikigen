@@ -1,29 +1,25 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>@</nowiki></code>.
+a [[Items#rare item|rare item]]. TODO.
 
-== description ==
-
-a spherical cell, capable of supplying a large amount of power.
-
-== crafting ==
-
-unlocks at [[level 35]].
-
-* 10 [[scrap metal]]
-* 2 [[circuit board]]
-* 5 [[wire]]
-* 3 [[energy cell]]
-* 1 [[copper coil]]
-* 500 seconds
-
+{{Item|<nowiki>@</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|charged core
+|a spherical cell, capable of supplying a large amount of power.
+|takes 500 cycles to craft
+|weighs 15 units
+|internal name (for bot developers): charged_core
+|crafting recipe: (unlocks at [[level 35]].)
+{{CraftingRecipe
+|10|scrap metal
+|2|circuit board
+|5|wire
+|3|energy cell
+|1|copper coil
+}}
+}}
 == used in crafting ==
 
 * [[high-range personal teleporter]]
 * [[low-range personal teleporter]]
 * [[high-range rescue scanner]]
-
-== stats ==
-
-'''weight''': 15 units
-
-'''internal name''': charged_core

@@ -1,20 +1,22 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>(T)</nowiki></code>.
+a [[Items#tools|tool]]. TODO.
 
-== description ==
-
-capable of teleporting 1000 kilometers in a cardinal direction. consumes 5 charged cores per teleport.
-
-== crafting ==
-
-unlocked with [[bp: high-range personal teleporter]].
-
-* 1 [[low-range personal teleporter]]
-* 3 [[unknown material fragment]]
-* 2 [[charged core]]
-* 25 [[wire]]
-* 86400 seconds
-
+{{Item|<nowiki>(T)</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|high-range personal teleporter
+|capable of teleporting 1000 kilometers in a cardinal direction. consumes 5 charged cores per teleport.
+|takes 86400 cycles to craft
+|weighs 35 units
+|internal name (for bot developers): high_teleporter
+|crafting recipe: (unlocked with [[bp: high-range personal teleporter]].)
+{{CraftingRecipe
+|1|low-range personal teleporter
+|3|unknown material fragment
+|2|charged core
+|25|wire
+}}
+}}
 == actions ==
 
 a heavy device that can teleport you 1000km in any direction, if the current location or destination do not have too much interference. requires 5 charged cores to engage a teleport.
@@ -26,9 +28,3 @@ a heavy device that can teleport you 1000km in any direction, if the current loc
 {{Button|teleport south}}: ''if you know what this does, please provide a detailed description here''
 
 {{Button|teleport west}}: ''if you know what this does, please provide a detailed description here''
-
-== stats ==
-
-'''weight''': 35 units
-
-'''internal name''': high_teleporter

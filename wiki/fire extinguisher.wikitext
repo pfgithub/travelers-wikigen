@@ -1,18 +1,15 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>Û</nowiki></code>.
+a [[Items#weapons|weapon]]. TODO.
 
-== description ==
-
-an empty metal can, once capable of saving lives, is now used to inflict pain.
-
-== finding ==
-
-''please edit this section''
-
-== stats ==
-
-'''weight''': 11 units
-
-'''internal name''': fire_extinguisher
-
-'''damage''': +11dmg, -11sp
+{{Item|<nowiki>Û</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|fire extinguisher
+|an empty metal can, once capable of saving lives, is now used to inflict pain.
+|not craftable
+|weighs 11 units
+|internal name (for bot developers): fire_extinguisher
+|damage: +11dmg, -11sp
+|finding:
+|''please edit this section''
+}}

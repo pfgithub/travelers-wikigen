@@ -1,18 +1,20 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>#</nowiki></code>.
+a [[Items#building materials|building material]]. TODO.
 
-== description ==
-
-a kilometer's worth of scrap metal fencing.
-
-== crafting ==
-
-unlocks at [[level 15]].
-
-* 30 [[scrap metal]]
-* 5 [[wood plank]]
-* 120 seconds
-
+{{Item|<nowiki>#</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|scrap metal fence
+|a kilometer's worth of scrap metal fencing.
+|takes 120 cycles to craft
+|weighs 35 units
+|internal name (for bot developers): scrap_block
+|crafting recipe: (unlocks at [[level 15]].)
+{{CraftingRecipe
+|30|scrap metal
+|5|wood plank
+}}
+}}
 == building ==
 
 '''description''': a kilometer of scrap metal fencing. it can't be walked over, and takes some time to break through.
@@ -20,9 +22,3 @@ unlocks at [[level 15]].
 == used in crafting ==
 
 * [[scrap metal gate]]
-
-== stats ==
-
-'''weight''': 35 units
-
-'''internal name''': scrap_block

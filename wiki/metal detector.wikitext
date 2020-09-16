@@ -1,26 +1,24 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>¯\_</nowiki></code>.
+a [[Items#tools|tool]]. TODO.
 
-== description ==
-
-detects materials hidden underground.
-
-== crafting ==
-
-unlocked with [[bp: metal detector]].
-
-* 20 [[scrap metal]]
-* 1 [[circuit board]]
-* 3 [[wire]]
-* 1 [[energy cell]]
-* 80 seconds
-
-== action ==
-
-'''when equipped''': while walking, the metal detector will ping if it finds useful materials underground automatically. if you have a shovel, you can also dig in place without needing to equip it.
-
-== stats ==
-
-'''weight''': 15 units
-
-'''internal name''': metal_detector
+{{Item|<nowiki>¯\_</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|metal detector
+|detects materials hidden underground.
+|takes 80 cycles to craft
+|weighs 15 units
+|internal name (for bot developers): metal_detector
+|crafting recipe: (unlocked with [[bp: metal detector]].)
+{{CraftingRecipe
+|20|scrap metal
+|1|circuit board
+|3|wire
+|1|energy cell
+}}
+}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Equip
+|when equipped:
+|while walking, the metal detector will ping if it finds useful materials underground automatically. if you have a shovel, you can also dig in place without needing to equip it.
+}}

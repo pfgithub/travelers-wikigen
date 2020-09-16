@@ -1,16 +1,14 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>[c]</nowiki></code>.
+a [[Items#rare item|rare item]]. TODO.
 
-== description ==
-
-it describes itself as a security clearance card, with access limited to "group c".
-
-== finding ==
-
-''please edit this section''
-
-== stats ==
-
-'''weight''': 1 units
-
-'''internal name''': keycard_c
+{{Item|<nowiki>[c]</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|keycard type c
+|it describes itself as a security clearance card, with access limited to "group c".
+|not craftable
+|weighs 1 units
+|internal name (for bot developers): keycard_c
+|finding:
+|''please edit this section''
+}}

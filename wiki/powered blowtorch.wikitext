@@ -1,22 +1,19 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>r=</nowiki></code>.
+a [[Items#tools|tool]]. TODO.
 
-== description ==
-
-a powerful torch, capable of melting weaker metals.
-
-== crafting ==
-
-unlocks at [[level 20]].
-
-* 15 [[scrap metal]]
-* 4 [[wire]]
-* 7 [[plastic pieces]]
-* 2 [[energy cell]]
-* 150 seconds
-
-== stats ==
-
-'''weight''': 35 units
-
-'''internal name''': blowtorch
+{{Item|<nowiki>r=</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|powered blowtorch
+|a powerful torch, capable of melting weaker metals.
+|takes 150 cycles to craft
+|weighs 35 units
+|internal name (for bot developers): blowtorch
+|crafting recipe: (unlocks at [[level 20]].)
+{{CraftingRecipe
+|15|scrap metal
+|4|wire
+|7|plastic pieces
+|2|energy cell
+}}
+}}

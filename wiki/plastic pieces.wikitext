@@ -1,14 +1,17 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>ß</nowiki></code>.
+a [[Items#miscellaneous|miscellaneous item]]. TODO.
 
-== description ==
-
-some different kinds of plastic, molded together.
-
-== finding ==
-
-''please edit this section''
-
+{{Item|<nowiki>ß</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|plastic pieces
+|some different kinds of plastic, molded together.
+|not craftable
+|weighs 2 units
+|internal name (for bot developers): plastic
+|finding:
+|''please edit this section''
+}}
 == used in crafting ==
 
 * [[powered blowtorch]]
@@ -16,9 +19,3 @@ some different kinds of plastic, molded together.
 * [[control panel]]
 * [[high-range rescue scanner]]
 * [[small storage unit]]
-
-== stats ==
-
-'''weight''': 2 units
-
-'''internal name''': plastic

@@ -1,26 +1,22 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>◻</nowiki></code>.
+a [[Items#building materials|building material]]. TODO.
 
-== description ==
-
-a small structure capable of holding a lot of items.
-
-== crafting ==
-
-unlocks at [[level 20]].
-
-* 15 [[wood plank]]
-* 10 [[scrap metal]]
-* 10 [[plastic pieces]]
-* 4 [[rope]]
-* 75 seconds
-
+{{Item|<nowiki>◻</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|small storage unit
+|a small structure capable of holding a lot of items.
+|takes 75 cycles to craft
+|weighs 15 units
+|internal name (for bot developers): small_chest
+|crafting recipe: (unlocks at [[level 20]].)
+{{CraftingRecipe
+|15|wood plank
+|10|scrap metal
+|10|plastic pieces
+|4|rope
+}}
+}}
 == building ==
 
 '''description''': a small structure capable of holding a lot of items.
-
-== stats ==
-
-'''weight''': 15 units
-
-'''internal name''': small_chest

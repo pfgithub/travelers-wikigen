@@ -1,20 +1,17 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>[]</nowiki></code>.
+a [[Items#blueprints|blueprint]]. TODO.
 
-== description ==
-
-a blueprint for a device that can anchor ones life force to a specific location. it specifies use of an unknown material.
-
-== finding ==
-
-''please edit this section''
-
+{{Item|<nowiki>[]</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|bp: personal reality anchor
+|a blueprint for a device that can anchor ones life force to a specific location. it specifies use of an unknown material.
+|not craftable
+|weighs 1 units
+|internal name (for bot developers): bp_reality_anchor
+|finding:
+|''please edit this section''
+}}
 == blueprint ==
 
 learn to unlock the recipe for [[personal reality anchor]].
-
-== stats ==
-
-'''weight''': 1 units
-
-'''internal name''': bp_reality_anchor

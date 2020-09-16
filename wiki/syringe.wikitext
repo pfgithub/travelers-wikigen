@@ -1,16 +1,14 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>=-</nowiki></code>.
+a [[Items#miscellaneous|miscellaneous item]]. TODO.
 
-== description ==
-
-intended for injecting liquids into a bloodstream.
-
-== finding ==
-
-''please edit this section''
-
-== stats ==
-
-'''weight''': 3 units
-
-'''internal name''': syringe
+{{Item|<nowiki>=-</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|syringe
+|intended for injecting liquids into a bloodstream.
+|not craftable
+|weighs 3 units
+|internal name (for bot developers): syringe
+|finding:
+|''please edit this section''
+}}

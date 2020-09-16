@@ -1,21 +1,18 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>c</nowiki></code>.
+a [[Items#miscellaneous|miscellaneous item]]. TODO.
 
-== description ==
-
-tattered and partially rotted fabric, but combined with others like it, could still be put to use.
-
-== finding ==
-
-''please edit this section''
-
+{{Item|<nowiki>c</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|cloth
+|tattered and partially rotted fabric, but combined with others like it, could still be put to use.
+|not craftable
+|weighs 1 units
+|internal name (for bot developers): cloth
+|finding:
+|''please edit this section''
+}}
 == used in crafting ==
 
 * [[active camouflage]]
 * [[wire]]
-
-== stats ==
-
-'''weight''': 1 units
-
-'''internal name''': cloth

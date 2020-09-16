@@ -1,25 +1,21 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>$</nowiki></code>.
+a [[Items#building materials|building material]]. TODO.
 
-== description ==
-
-a sturdy gate fashioned from strong steel.
-
-== crafting ==
-
-unlocks at [[level 30]].
-
-* 1 [[reinforced steel fence]]
-* 4 [[copper coil]]
-* 1 [[control panel]]
-* 250 seconds
-
+{{Item|<nowiki>$</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|steel gate
+|a sturdy gate fashioned from strong steel.
+|takes 250 cycles to craft
+|weighs 35 units
+|internal name (for bot developers): steel_door
+|crafting recipe: (unlocks at [[level 30]].)
+{{CraftingRecipe
+|1|reinforced steel fence
+|4|copper coil
+|1|control panel
+}}
+}}
 == building ==
 
 '''description''': a metal gate fashioned from scrapped machinery. secured by a small computer with a keypad.
-
-== stats ==
-
-'''weight''': 35 units
-
-'''internal name''': steel_door

@@ -1,16 +1,14 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>[e]</nowiki></code>.
+a [[Items#rare item|rare item]]. TODO.
 
-== description ==
-
-it describes itself as a security clearance card, with access limited to "group e".
-
-== finding ==
-
-''please edit this section''
-
-== stats ==
-
-'''weight''': 1 units
-
-'''internal name''': keycard_e
+{{Item|<nowiki>[e]</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|keycard type e
+|it describes itself as a security clearance card, with access limited to "group e".
+|not craftable
+|weighs 1 units
+|internal name (for bot developers): keycard_e
+|finding:
+|''please edit this section''
+}}

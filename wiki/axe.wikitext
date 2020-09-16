@@ -1,24 +1,19 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>––A</nowiki></code>.
+a [[Items#tools|tool]]. TODO.
 
-== description ==
-
-a sharp axe, capable of breaking down strong structures.
-
-== crafting ==
-
-unlocks at [[level 25]].
-
-* 2 [[wood plank]]
-* 5 [[steel shard]]
-* 25 seconds
-
-== stats ==
-
-'''weight''': 9 units
-
-'''internal name''': axe
-
-'''damage''': +17dmg, -8sp
-
-'''break ratio''': 25
+{{Item|<nowiki>––A</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|axe
+|a sharp axe, capable of breaking down strong structures.
+|takes 25 cycles to craft
+|weighs 9 units
+|internal name (for bot developers): axe
+|damage: +17dmg, -8sp
+|break ratio: 25
+|crafting recipe: (unlocks at [[level 25]].)
+{{CraftingRecipe
+|2|wood plank
+|5|steel shard
+}}
+}}

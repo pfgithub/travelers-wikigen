@@ -1,21 +1,18 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>X</nowiki></code>.
+a [[Items#tools|tool]]. TODO.
 
-== description ==
-
-two long handles, bolted on an axle and tipped with steel. capable of snipping many materials.
-
-== crafting ==
-
-unlocks at [[level 10]].
-
-* 6 [[scrap metal]]
-* 2 [[steel shard]]
-* 2 [[rope]]
-* 45 seconds
-
-== stats ==
-
-'''weight''': 7 units
-
-'''internal name''': bolt_cutters
+{{Item|<nowiki>X</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|bolt cutters
+|two long handles, bolted on an axle and tipped with steel. capable of snipping many materials.
+|takes 45 cycles to craft
+|weighs 7 units
+|internal name (for bot developers): bolt_cutters
+|crafting recipe: (unlocks at [[level 10]].)
+{{CraftingRecipe
+|6|scrap metal
+|2|steel shard
+|2|rope
+}}
+}}

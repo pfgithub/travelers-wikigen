@@ -1,16 +1,14 @@
 {{FixTitle}}
-An [[items|item]]. Icon: '''<code><nowiki>-</nowiki></code>'''.
+a [[Items#miscellaneous|miscellaneous item]]. TODO.
 
-== description ==
-
-a cylinder of plastic containing several tiny metal balls. capable of inflicting heavy damage over a short range.
-
-== finding ==
-
-''please edit this section''
-
-== stats ==
-
-'''weight''': 3 units
-
-'''internal name''': shotgun_shell
+'''<code>{{Item|-</nowiki>}}'''
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|shotgun shell
+|a cylinder of plastic containing several tiny metal balls. capable of inflicting heavy damage over a short range.
+|not craftable
+|weighs 3 units
+|internal name (for bot developers): shotgun_shell
+|finding:
+|''please edit this section''
+}}

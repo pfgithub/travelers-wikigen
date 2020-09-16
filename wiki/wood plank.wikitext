@@ -1,14 +1,17 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>/</nowiki></code>.
+a [[Items#miscellaneous|miscellaneous item]]. TODO.
 
-== description ==
-
-a plank of old wood. versatile and cheap.
-
-== finding ==
-
-''please edit this section''
-
+{{Item|<nowiki>/</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|wood plank
+|a plank of old wood. versatile and cheap.
+|not craftable
+|weighs 1 units
+|internal name (for bot developers): wood_stick
+|finding:
+|''please edit this section''
+}}
 == used in crafting ==
 
 * [[axe]]
@@ -23,9 +26,3 @@ a plank of old wood. versatile and cheap.
 * [[small storage unit]]
 * [[reinforced steel fence]]
 * [[wooden fence]]
-
-== stats ==
-
-'''weight''': 1 units
-
-'''internal name''': wood_stick

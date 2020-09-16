@@ -1,14 +1,17 @@
 {{FixTitle}}
-An [[items|item]]. Icon: <code><nowiki>o</nowiki></code>.
+a [[Items#miscellaneous|miscellaneous item]]. TODO.
 
-== description ==
-
-a charged battery, from a time when energy was unlimited.
-
-== finding ==
-
-''please edit this section''
-
+{{Item|<nowiki>o</nowiki>}}
+<div style="border-left:2px dotted black; margin:10px 23px; height:40px;"></div>
+{{Desc
+|energy cell
+|a charged battery, from a time when energy was unlimited.
+|not craftable
+|weighs 4 units
+|internal name (for bot developers): battery
+|finding:
+|''please edit this section''
+}}
 == used in crafting ==
 
 * [[powered blowtorch]]
@@ -16,9 +19,3 @@ a charged battery, from a time when energy was unlimited.
 * [[metal detector]]
 * [[low-range rescue scanner]]
 * [[personal reality anchor]]
-
-== stats ==
-
-'''weight''': 4 units
-
-'''internal name''': battery
